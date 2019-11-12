@@ -1,0 +1,31 @@
+image: docker.adeo.no:5000/euresapi
+
+prometheus: 
+  enabled: true
+  path: /actuator/prometheus
+
+healthcheck: #Optional
+  liveness:
+    path: /euresapi/rest/internal/AreYouAlive
+    initialDelay: 20
+    periodSeconds: 15
+    failureThreshold: 10
+  readiness:
+    path: /euresapi/rest/internal/AreYouAlive
+    initialDelay: 60
+    periodSeconds: 15
+    failureThreshold: 4
+
+fasitResources:
+  used:
+  - alias: appres.cms
+    resourceType: baseUrl
+    propertyMap:
+      euresapi.cms: APPRES_CMS
+
+  exposed: # Will be registered as exposed services on an application instance in Fasit
+    - alias: SearchJobs
+      resourceType: restservice
+      path: /euresapi/rest/SearchJobs
+
+webproxy: true

@@ -1,0 +1,64 @@
+{
+  "header": {
+    "parameters": {
+      "request": {
+        "view": "FULL",
+        "handle": [
+          "MjMwMjYgMTIx",
+          "ODkyMDQ2IDEyMQ"
+        ]
+      },
+      "acceptLanguageHeader": "en"
+    }
+  },
+  "data": {
+    "items": [
+      {
+        "jobVacancy": {
+          "header": {
+            "handle": "ODkyMDQ2IDEyMQ",
+            "dataSourceId": 121,
+            "dataSourceName": "SE",
+            "dataSourceJvReference": "892046"
+          },
+          "hrxml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<PositionOpening majorVersionID=\"3\" minorVersionID=\"2\" xmlns=\"http://www.hr-xml.org/3\" xmlns:ns2=\"http://www.openapplications.org/oagis/9\">\n    <DocumentID schemeID=\"ID-1234\" schemeAgencyID=\"PES-SWEDEN\" schemeAgencyName=\"PES-SWEDEN\" schemeVersionID=\"1.3\">23590448</DocumentID>\n    <PositionOpeningStatusCode name=\"Active\">Active</PositionOpeningStatusCode>\n    <PostingRequester agencyRoleCode=\"Requester\">\n        <PartyID schemeID=\"Party-IDs\" schemeAgencyID=\"PES-SWEDEN\" schemeAgencyName=\"PES-SWEDEN\" schemeURI=\"https://www.arbetsformedlingen.se/\">PES-SWEDEN</PartyID>\n        <PartyName>Public Employment Service Sweden</PartyName>\n    </PostingRequester>\n    <PositionProfile languageCode=\"sv\">\n        <PostingInstruction>\n            <ApplicationMethod>\n                <Instructions type=\"Ansokningssatt\">&lt;a href=\"https://www.arbetsformedlingen.se/For-arbetssokande/Hitta-jobb/Platsbanken/annonser/23590448\"&gt;Link to the vacancy on the Swedish job board&lt;/a&gt;</Instructions>\n            </ApplicationMethod>\n        </PostingInstruction>\n        <PositionTitle typeCode=\"Annonsrubrik\">Hotellreceptionist Deltid på Boutique hotell </PositionTitle>\n        <PositionLocation>\n            <Address type=\"Arbetsplatsadress\">\n                <ns2:AddressLine>Norrtull</ns2:AddressLine>\n                <ns2:CityName>STOCKHOLM</ns2:CityName>\n                <ns2:CountrySubDivisionCode>SE110</ns2:CountrySubDivisionCode>\n                <CountryCode>SE</CountryCode>\n                <ns2:PostalCode>11347</ns2:PostalCode>\n            </Address>\n        </PositionLocation>\n        <PositionOrganization>\n            <OrganizationIdentifiers>\n                <OrganizationName>AB Restaurant Stallmästaregården</OrganizationName>\n                <OrganizationLegalID schemeID=\"LegalID\" schemeName=\"LegalID\" schemeAgencyID=\"ORGNR\" schemeAgencyName=\"Organisationsnummer\" schemeVersionID=\"1.0\" schemeDataURI=\"PENDING\" schemeURI=\"PENDING\">5560300005</OrganizationLegalID>\n            </OrganizationIdentifiers>\n            <IndustryCode>I56.1</IndustryCode>\n            <ns2:Description type=\"Foretagsinfo\"/>\n        </PositionOrganization>\n        <PositionOpenQuantity>1</PositionOpenQuantity>\n        <JobCategoryCode listName=\"ISCO2008\" listVersionID=\"2008\" listURI=\"http://ec.europa.eu/esco/ConceptScheme/ISCO2008\">4224</JobCategoryCode>\n        <PositionOfferingTypeCode>DirectHire</PositionOfferingTypeCode>\n        <PositionQualifications>\n            <EducationRequirement>\n                <EducationLevelCode listName=\"EURES_ISCEDEducationLevel\" listVersionID=\"2011\" listURI=\"https://ec.europa.eu/eures\">3</EducationLevelCode>\n                <DegreeTypeCode>http://ec.europa.eu/esco/qualification/23938</DegreeTypeCode>\n            </EducationRequirement>\n            <ExperienceSummary>\n                <ExperienceCategory>\n                    <CategoryCode listName=\"ISCO2008\" listVersionID=\"2008\" listURI=\"http://ec.europa.eu/esco/ConceptScheme/ISCO2008\">4224</CategoryCode>\n                    <Measure unitCode=\"year\">1</Measure>\n                </ExperienceCategory>\n            </ExperienceSummary>\n        </PositionQualifications>\n        <PositionFormattedDescription>\n            <Content> Vi söker dig som vill jobba deltid&amp;#xa0;i receptionen hos oss.Du som är en glad och positiv person, som gillar att ta eget initiativ, ta ansvar, och som är flexibel för förändringar och ser lösningar.Arbetsuppgifterna• Dagliga arbetsuppgifter i receptionen.• In- och utcheckning av hotellgäster i hotellets system (Opera)• Hantering av kassa och växel• Concierge service• Mail och Telefon• Hantera bokningar från bokningskanaler.Om tjänsten• Anställningen är 50% tillsvidare.• Arbete är förlagt både dag- och kvällstid samt helger.Ansökan• Mycket goda kunskaper i svenska och engelska.• Goda datakunskaper•Du kan hantera stressiga situationer på ett bra och professionellt sätt.• Har du jobbat på hotell tidigare eller studerat hotell- &amp;amp; restaurangutbildning är det meriterandeOm ossStallmästaregården är ett intimt boutique hotell och värdshus med 49 rum, beläget strax intill Kungliga Hagaparken, Brunnsviken och Solna. Hotellet som öppnade år 2000 omges av en lugn och rogivande miljö med storslagen natur samtidigt som stadens puls ligger bara ett kort promenadavstånd härifrån.</Content>\n        </PositionFormattedDescription>\n        <WorkingLanguageCode>EN</WorkingLanguageCode>\n        <WorkingLanguageCode>SV</WorkingLanguageCode>\n        <ImmediateStartIndicator>false</ImmediateStartIndicator>\n        <PositionScheduleTypeCode>PartTime</PositionScheduleTypeCode>\n    </PositionProfile>\n</PositionOpening>\n"
+        },
+        "auditInfo": {
+          "creationTimestamp": "2019-10-16T08:58:00",
+          "modificationTimestamp": "2019-10-16T08:58:00"
+        },
+        "related": {
+          "urls": [
+            {
+              "urlName": "EURES portal",
+              "urlValue": "https://ec.europa.eu/eures/eures-searchengine/page/main?lang=null#/jv-details/ODkyMDQ2IDEyMQ"
+            }
+          ]
+        }
+      },
+      {
+        "jobVacancy": {
+          "header": {
+            "handle": "MjMwMjYgMTIx",
+            "dataSourceId": 121,
+            "dataSourceName": "SE",
+            "dataSourceJvReference": "23026"
+          },
+          "hrxml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><PositionOpening xmlns=\"http://www.hr-xml.org/3\" xmlns:ns2=\"http://www.openapplications.org/oagis/9\" majorVersionID=\"3\" minorVersionID=\"2\">\n    <DocumentID schemeAgencyID=\"PES-SWEDEN\" schemeAgencyName=\"PES-SWEDEN\" schemeID=\"ID-1234\" schemeVersionID=\"1.3\">22643192</DocumentID>\n    <PositionOpeningStatusCode name=\"Active\">Active</PositionOpeningStatusCode>\n    <PostingRequester agencyRoleCode=\"Requester\">\n        <PartyID schemeAgencyID=\"PES-SWEDEN\" schemeAgencyName=\"PES-SWEDEN\" schemeID=\"Party-IDs\" schemeURI=\"https://www.arbetsformedlingen.se/\">PES-SWEDEN</PartyID>\n        <PartyName>Public Employment Service Sweden</PartyName>\n    </PostingRequester>\n    <PositionProfile languageCode=\"sv\">\n        <PostingInstruction>\n            <ApplicationMethod>\n                <Instructions type=\"Ansokningssatt\">&lt;a href=\"https://www.arbetsformedlingen.se/For-arbetssokande/Hitta-jobb/Platsbanken/annonser/22643192\"&gt;Link to the vacancy on the Swedish job board&lt;/a&gt;</Instructions>\n            </ApplicationMethod>\n        </PostingInstruction>\n        <PositionTitle typeCode=\"Annonsrubrik\">Hotell småland</PositionTitle>\n        <PositionLocation>\n            <Address type=\"Arbetsplatsadress\">\n                <ns2:AddressLine>Åkaregatan 1 Klevshult</ns2:AddressLine>\n                <ns2:CityName>SKILLINGARYD</ns2:CityName>\n                <CountryCode>SE</CountryCode>\n                <ns2:PostalCode>56892</ns2:PostalCode>\n            </Address>\n        </PositionLocation>\n        <PositionOrganization>\n            <OrganizationIdentifiers>\n                <OrganizationName>Rasta Sverige AB</OrganizationName>\n                <OrganizationLegalID schemeAgencyID=\"ORGNR\" schemeAgencyName=\"Organisationsnummer\" schemeDataURI=\"PENDING\" schemeID=\"LegalID\" schemeName=\"LegalID\" schemeURI=\"PENDING\" schemeVersionID=\"1.0\">5566187141</OrganizationLegalID>\n            </OrganizationIdentifiers>\n            \n            <ns2:Description type=\"Foretagsinfo\"/>\n        </PositionOrganization>\n        <PositionOpenQuantity>4</PositionOpenQuantity>\n        <JobCategoryCode listName=\"ISCO2008\" listURI=\"http://ec.europa.eu/esco/ConceptScheme/ISCO2008\" listVersionID=\"2008\">9111</JobCategoryCode>\n        <JobCategoryCode listName=\"ISCO2008\" listURI=\"http://ec.europa.eu/esco/ConceptScheme/ISCO2008\" listVersionID=\"2008\">9112</JobCategoryCode>\n        <PositionOfferingTypeCode>Seasonal</PositionOfferingTypeCode>\n        <PositionQualifications>\n            <EducationRequirement>\n                <EducationLevelCode listName=\"EURES_ISCEDEducationLevel\" listURI=\"https://ec.europa.eu/eures\" listVersionID=\"2011\">3</EducationLevelCode>\n                <DegreeTypeCode>http://ec.europa.eu/esco/qualification/23938</DegreeTypeCode>\n            </EducationRequirement>\n            <LicenseTypeCode>B</LicenseTypeCode>\n        </PositionQualifications>\n        <PositionFormattedDescription>\n            <Content>Stresstålig, Kunna ha många bollar i luften, glad, trevlig, positiv, Kunna SVENSKA I TAL OCH SKRIFT.  Städa hotellrum, städa duscharna nere på restaurangen + toaletterna, allmänna utrymmen, städa hotellet.  Vi tillhör rasta. Vi har både hotell, butik och restaurang, </Content>\n        </PositionFormattedDescription>\n        <WorkingLanguageCode>SV</WorkingLanguageCode>\n        <ImmediateStartIndicator>false</ImmediateStartIndicator>\n        <PositionScheduleTypeCode>PartTime</PositionScheduleTypeCode>\n    </PositionProfile>\n</PositionOpening>"
+        },
+        "auditInfo": {
+          "creationTimestamp": "2018-07-03T09:16:44",
+          "modificationTimestamp": "2018-07-31T12:37:53"
+        },
+        "related": {
+          "urls": [
+            {
+              "urlName": "EURES portal",
+              "urlValue": "https://ec.europa.eu/eures/eures-searchengine/page/main?lang=null#/jv-details/MjMwMjYgMTIx"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

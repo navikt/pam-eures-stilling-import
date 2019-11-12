@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <property name="MAIN_APPLICATION" value="euresapi"/>
+
+    <appender name="CONSOLE_APPENDER" class="ch.qos.logback.core.ConsoleAppender">
+
+        <encoder>
+            <Pattern>.%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg %n</Pattern>
+        </encoder>
+<!--
+        <encoder class="net.logstash.logback.encoder.LogstashEncoder" />
+-->
+
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>TRACE</level>
+        </filter>
+
+    </appender>
+
+    <root>
+        <level value="INFO" />
+        <appender-ref ref="CONSOLE_APPENDER" />
+    </root>
+
+    <logger name="no.nav.arbeid.euresapi" additivity="false">
+        <level value="DEBUG" />
+    </logger>
+
+</configuration>

@@ -1,0 +1,112 @@
+{
+  "header" : null,
+  "data" : {
+    "items" : [ {
+      "jobVacancyHeader" : {
+        "jobVacancyHandle" : "ODkyMDQ2IDEyMQ",
+        "dataSourceId" : null,
+        "dataSourceName" : null,
+        "title" : "Hotellreceptionist Deltid på Boutique hotell ",
+        "jobDescription" : " Vi söker dig som vill jobba deltid&#xa0;i receptionen hos oss.Du som är en glad och positiv person, som gillar att ta eget initiativ, ta ansvar, och som är flexibel för förändringar och ser lösningar.Arbetsuppgifterna• Dagliga arbetsuppgifter i receptionen.• In- och utcheckning av hotellgäster i hotellets system (Opera)• Hantering av kassa och växel• Concierge service• Mail och Telefon• Hantera bokningar från bokningskanaler.Om tjänsten• Anställningen är 50% tillsvidare.• Arbete är förlagt både dag- och kvällstid samt helger.Ansökan• Mycket goda kunskaper i svenska och engelska.• Goda datakunskaper•Du kan hantera stressiga situationer på ett bra och professionellt sätt.• Har du jobbat på hotell tidigare eller studerat hotell- &amp; restaurangutbildning är det meriterandeOm ossStallmästaregården är ett intimt boutique hotell och värdshus med 49 rum, beläget strax intill Kungliga Hagaparken, Brunnsviken och Solna. Hotellet som öppnade år 2000 omges av en lugn och rogivande miljö med storslagen natur samtidigt som stadens puls ligger bara ett kort promenadavstånd härifrån.",
+        "posts" : 1,
+        "employerName" : "AB Restaurant Stallmästaregården",
+        "salaryCurrencyCode" : null,
+        "maximalSalary" : 0.0,
+        "minimalSalary" : 0.0,
+        "salaryPeriodCode" : "PartTime",
+        "salaryTaxationCode" : null,
+        "lastApplicationDate" : null,
+        "endDate" : null,
+        "startDate" : null,
+        "dataSourceUniqueJVId" : "121"
+      },
+      "auditInfo" : {
+        "creationDate" : "2019-10-16T08:58:00",
+        "modificationDate" : "2019-10-16T08:58:00",
+        "replicationTimestamp" : null
+      },
+      "jobRelevance" : null,
+      "codeDescriptions" : null,
+      "related" : {
+        "urls" : [ {
+          "urlName" : "EURES portal",
+          "urlValue" : "https://ec.europa.eu/eures/eures-searchengine/page/main?lang=null#/jv-details/ODkyMDQ2IDEyMQ"
+        } ]
+      },
+      "jobFacets" : [ {
+        "facetName" : "LOCATION",
+        "facetValue" : null,
+        "facetDescription" : "Sweden"
+      }, {
+        "facetName" : "CONTRACT_TYPE",
+        "facetValue" : null,
+        "facetDescription" : "Part-time"
+      }, {
+        "facetName" : "CONTRACT_DURATION",
+        "facetValue" : null,
+        "facetDescription" : "Direct hire"
+      }, {
+        "facetName" : "EXPERIENCE",
+        "facetValue" : null,
+        "facetDescription" : "1 år"
+      }, {
+        "facetName" : "OCCUPATION",
+        "facetValue" : null,
+        "facetDescription" : "4224"
+      } ]
+    }, {
+      "jobVacancyHeader" : {
+        "jobVacancyHandle" : "MjMwMjYgMTIx",
+        "dataSourceId" : null,
+        "dataSourceName" : null,
+        "title" : "Hotell småland",
+        "jobDescription" : "Stresstålig, Kunna ha många bollar i luften, glad, trevlig, positiv, Kunna SVENSKA I TAL OCH SKRIFT.  Städa hotellrum, städa duscharna nere på restaurangen + toaletterna, allmänna utrymmen, städa hotellet.  Vi tillhör rasta. Vi har både hotell, butik och restaurang, ",
+        "posts" : 4,
+        "employerName" : "Rasta Sverige AB",
+        "salaryCurrencyCode" : null,
+        "maximalSalary" : 0.0,
+        "minimalSalary" : 0.0,
+        "salaryPeriodCode" : "PartTime",
+        "salaryTaxationCode" : null,
+        "lastApplicationDate" : null,
+        "endDate" : null,
+        "startDate" : null,
+        "dataSourceUniqueJVId" : "121"
+      },
+      "auditInfo" : {
+        "creationDate" : "2018-07-03T09:16:44",
+        "modificationDate" : "2018-07-31T12:37:53",
+        "replicationTimestamp" : null
+      },
+      "jobRelevance" : null,
+      "codeDescriptions" : null,
+      "related" : {
+        "urls" : [ {
+          "urlName" : "EURES portal",
+          "urlValue" : "https://ec.europa.eu/eures/eures-searchengine/page/main?lang=null#/jv-details/MjMwMjYgMTIx"
+        } ]
+      },
+      "jobFacets" : [ {
+        "facetName" : "LOCATION",
+        "facetValue" : null,
+        "facetDescription" : "Sweden"
+      }, {
+        "facetName" : "CONTRACT_TYPE",
+        "facetValue" : null,
+        "facetDescription" : "Part-time"
+      }, {
+        "facetName" : "CONTRACT_DURATION",
+        "facetValue" : null,
+        "facetDescription" : "Seasonal"
+      }, {
+        "facetName" : "EXPERIENCE",
+        "facetValue" : null,
+        "facetDescription" : "Uspesifisert"
+      }, {
+        "facetName" : "OCCUPATION",
+        "facetValue" : null,
+        "facetDescription" : "9111"
+      } ]
+    } ]
+  }
+}

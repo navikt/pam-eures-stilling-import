@@ -1,0 +1,866 @@
+{
+  "header": {
+    "disclaimer" : "In addition to the general terms and conditions available under the link \"legal notice\" on this website you are, by using the \"Find a job\" service on the EURES portal, deemed to have read and accepted the following:\n\n?tThe job vacancies published on the EURES portal are provided by the employment services that are partners of the EURES network. They are responsible for the quality of the data they provide and the European Commission accepts no responsibility or liability for the contents or the reliability of the information.\n?tThe job vacancy information may only be used for lawful and legitimate purposes. \n?tYou are not permitted to use \"screen scraping\" or any other automated or manual system to extract job vacancy data in order to further process or re-publish the information.\n?tYou may not take any action that imposes an unreasonable or disproportionately large load on the website or related infrastructure.\n?tOnly EURES partner organisations, recognised by a EURES National Coordination Office, are allowed to extract data using our API or similar technologies.\n",
+    "parameters" : {
+      "searchJobsRequest": {
+        "searchCriteria": {
+          "keywordCriteria": {
+            "keywordLanguageCode": "en",
+            "keywords":                   [
+              {
+                "keywordText": "Analyst",
+                "keywordScope": "JOB_DESCRIPTION"
+              },
+              {
+                "keywordText": "System",
+                "keywordScope": "JOB_TITLE"
+              }
+            ]
+          }
+        , "facetCriteria"  : [
+            {
+              "facetName"  : "LOCATION"
+            , "facetValues": [
+              "BE211"
+            , "BE231"
+            , "FR"
+            ]
+            }
+          ]
+        },
+        "dataSetRequest": {
+          "sortBy": "BEST_MATCH",
+          "resultsPerPage": 10,
+          "pageNumber": 1,
+          "excludedDataSources": []
+        }
+      },
+      "acceptLanguageHeader": "en"
+    },
+    "dataSetInfo": {
+      "sortBy": "BEST_MATCH",
+      "pageNumber": 1,
+      "resultsPerPage": 10,
+      "totalPageCount": 1,
+      "totalMatchingJobVacanciesCount": 12
+    }
+  }
+, "data"  : {
+    "items": [
+      {
+        "jobVacancyHeader": {
+          "jobVacancyHandle": "a2008b6c5b8d4a33ada64e81c0e9b63d",
+          "dataSourceId": 40,
+          "dataSourceName": "VDAB, Public Employment Services, Belgium",
+          "dataSourceUniqueJVId": "54579826",
+          "title": "Service Engineer Industrial IT Systems",
+          "jobDescription": "Our client is the \n<strong>worldwide leader in Automation Technologies for the Process Industry<\/strong>. With over 600 locations in more than 85 countries, they are the leading global supplier of products, services and solutions that measure, analyse, control, automate and improve process related operations across many industries. Located in Diegem, our client is serving the market of Belgium and Luxemburg with leading measurement instruments, control valves, process control systems and asset optimization solutions. To reinforce the Service Department we are currently looking for an enthusiastic (m/f): \n<strong>SERVICE ENGINEER SYSTEMS<\/strong> Following an intensive training period, you will provide quality and timely installation and maintenance of the products at the customers�site in Belux and in the service centre. You will become a technical ambassador to customers and deliver a high level of customer service. Depending on the clients�wishes and type of project and agreement you will support the installation and will be responsible for the configuration, training, service and maintenance of the systems at the customer site. As service engineer you will spend a lot of time at the customers�site delivering the correct service. Furthermore you will give the necessary explanation and demo? regarding the products. Most of the clients are situated in the process industry (pharmaceutical, (petro)chemical, refinery,�. Depending on your level of expertise you will provide training on the different products within your speciality.\n<p><\/p>\n<p>Our client offers you various career opportunities in an international environment. You will work in a pleasant, dynamic and flexible working environment. Our client will give you extended and continuous training and the ability to develop yourself and your skills to a high level of expertise. Furthermore to valorise your knowledge and efforts, you will receive an attractive salary including other benefits.<\/p>\n<p><\/p>\n<p>You have obtained with success a masters or bachelors degree in a technical direction (automation, electro mechanics, M&amp;R,...) and you are interested in working in a high tech environment where you have the ability to develop and specialize yourself. As ambassador of the company you have a customer-oriented attitude and the ability to communicate professionally at various levels. Experience as service engineer or a similar working environment is a valuable asset. Knowledge or feeling with ICT or electronics is a plus. Furthermore you are able to communicate in Dutch, English and French.<\/p>",
+          "posts": 1,
+          "employerName": "MONITOR",
+          "salaryCurrencyCode": null,
+          "maximalSalary": 0,
+          "minimalSalary": 0,
+          "salaryPeriodCode": null,
+          "salaryTaxationCode": null,
+          "lastApplicationDate": null,
+          "endDate": null,
+          "startDate": null
+        }
+      , "auditInfo"       : {
+        "creationDate"        : "2016-03-03"
+      , "modificationDate"    : "2016-10-13"
+      , "replicationTimestamp": "2016-03-04T18:07:34"
+      }
+      , "jobRelevance"    : {
+        "relevanceScore": "0.023823395"
+      }
+      , "codeDescriptions": {
+        "salaryCurrencyDescription": null
+      , "salaryPeriodDescription"  : null
+      , "salaryTaxationDescription": null
+      }
+      , "related"         : {
+        "urls": [
+          {
+            "urlName": "EURES portal",
+            "urlValue": "https://ec.europa.eu/eures/eures-searchengine/page/main?lang=en#/fullscreenJvView?uuId=a2008b6c5b8d4a33ada64e81c0e9b63d&jvId=54579826&pesId=40"
+          }
+        ]
+      }
+      , "jobFacets"       : [
+        {
+          "facetName": "CONTRACT_TYPE",
+          "facetValue": "F",
+          "facetDescription": "Full time"
+        }
+      , {
+          "facetName": "CONTRACT_DURATION",
+          "facetValue": "P",
+          "facetDescription": "Permanent"
+        }
+      , {
+          "facetName": "EURES_FLAG",
+          "facetValue": "false",
+          "facetDescription": "Without EURES flag"
+        }
+      , {
+          "facetName": "EXPERIENCE",
+          "facetValue": "A",
+          "facetDescription": "None required"
+        }
+      , {
+          "facetName": "LOCATION",
+          "facetValue": "BE211",
+          "facetDescription": "Arr. Antwerpen"
+        }
+      , {
+          "facetName": "OCCUPATION",
+          "facetValue": "1330",
+          "facetDescription": "Information and communications technology service managers"
+        }
+      ]
+      }
+    , {
+        "jobVacancyHeader": {
+          "jobVacancyHandle": "afb2a4f065fc472ba53b3cd4869f8016",
+          "dataSourceId": 40,
+          "dataSourceName": "VDAB, Public Employment Services, Belgium",
+          "dataSourceUniqueJVId": "55118776",
+          "title": "Junior Analytical Quality Systems Support",
+          "jobDescription": "<p>Onze opdrachtgever is <strong>een grote speler in de industri&euml;le automatiseringsmarkt<\/strong>. Met het hoofdkantoor ten Westen van Antwerpen alsook enkele vestigingen wereldwijd (Europa, Noord-Amerika en China), staan ze reeds geruime tijd garant voor een optimale levering aan automatiseringsoplossingen die een meerwaarde bieden aan de logistieke en productieprocessen. Bestaande uit vier divisies (Life Sciences, Process Automation, Infra Automation en Consulting &amp; Services), weten ze gericht in te spelen op de behoeften van de klant en te komen tot een uitmuntend resultaat. Vandaag zijn ze op zoek naar een enthousiaste stafmedewerker kwaliteit (m/v) die de groeiende Europese organisatie mee ondersteunt bij de realisatie van een aantal interne kwaliteitsprojecten:<\/p>\n<p><strong>Junior Analytical Quality Systems Support<\/strong><\/p>\n<p><strong>De uitdaging:<\/strong><\/p>\n<ul>\n <li>Je ondersteunt de organisatie dagdagelijks op vlak van kwaliteit van de interne bedrijfsprocessen.<\/li>\n <li>Je co&ouml;rdineert een aantal interne verbeterprojecten, van behoeften-analyse tot en met implementatie.<\/li>\n <li>Je bewaakt hierbij de overeenstemming met het bestaande kwaliteitsmanagementsysteem en de gemeenschappelijke (cross-divisionele) belangen.<\/li>\n <li>Je waakt mee over de uniformiteit van processen over divisies heen, hetgeen zich vertaalt in aanpassingen aanbrengen binnen IT-systemen, formulieren etc. Mogelijks treed je bij sommige verbeterprojecten op als Project Lead.<\/li>\n <li>Je zorgt voor de integratie van de gewijzigde processtappen en bewaakt de consistentie met het Quality System.<\/li>\n <li>Je schrijft workflows, procedures en werkinstructies op basis van verzamelde informatie.<\/li>\n <li>Je geeft training en begeleidt nieuwkomers m.b.t. het kwaliteitssysteem.<\/li>\n <li>Verder ondersteun je de kwaliteitsorganisatie bij de dagdagelijkse kwaliteisprocessen. (o.a. klachtenmanagement, klantentevredenheid, Interne audits,� : uitvoeren van analyses, nieuwsbrieven (artikels) opmaken, �\/li>\n <li>Je waakt mee over de correcte toepassing van gemaakte afspraken en kwaliteitspolicies.<\/li>\n<\/ul>\n<p>Werk mee in een lerende omgeving, waar opleiding de nodige aandacht krijgt. Maak deel uit van een technologie-gedreven team en een bedrijfsklimaat dat creativiteit stimuleert en waar intrapreneurship wordt aangemoedigd. Uiteraard krijg je ook een marktconform verlonigspakket.<\/p>\n<p><\/p>\n<ul>\n <li>De wereld van automatisering en techniek spreekt jou aan en je hebt affiniteit met hedendaagse ICT-Tools (ervaring met Process Tools is een voordeel).<\/li>\n <li>Je hebt ervaring met projectmatig werken, bij voorkeur in het kader van interne procesverbeteringen.<\/li>\n <li>Je bent sterk in analytisch en procesmatig denken.<\/li>\n <li>Je beschikt over sterke communicatieve vaardigheden en gaat gestructureerd en ordelijk te werk.<\/li>\n <li>Je kan idee&euml;n vlot op papier zetten.<\/li>\n <li>Vereisten naar scholing en ervaring toe: je beschikt over een masterdiploma en hebt bij voorkeur een eerste ervaring met (of theoretische kennis van) kwaliteitssystemen (Bv. ISO9001).<\/li>\n <li>Je drukt je vlot uit in het Nederlands en het Engels.<\/li>\n<\/ul>\n<p><\/p>",
+          "posts": 1,
+          "employerName": "MONITOR",
+          "salaryCurrencyCode": null,
+          "maximalSalary": 0,
+          "minimalSalary": 0,
+          "salaryPeriodCode": null,
+          "salaryTaxationCode": null,
+          "lastApplicationDate": null,
+          "endDate": null,
+          "startDate": null
+        }
+      , "auditInfo"       : {
+          "creationDate": "2016-08-26",
+          "modificationDate": "2016-08-30",
+          "replicationTimestamp": "2016-08-27T18:05:34"
+        }
+      , "jobRelevance"    : {"relevanceScore": "0.023823395"}
+      , "codeDescriptions": {
+          "salaryCurrencyDescription": null,
+          "salaryPeriodDescription": null,
+          "salaryTaxationDescription": null
+        }
+      , "related"         : {
+          "urls": [
+            {
+              "urlName": "EURES portal",
+              "urlValue": "https://ec.europa.eu/eures/eures-searchengine/page/main?lang=en#/fullscreenJvView?uuId=afb2a4f065fc472ba53b3cd4869f8016&jvId=55118776&pesId=40"
+            }
+          ]
+        }
+      , "jobFacets"       : [
+          {
+            "facetName": "CONTRACT_TYPE",
+            "facetValue": "F",
+            "facetDescription": "Full time"
+          },
+          {
+            "facetName": "CONTRACT_DURATION",
+            "facetValue": "P",
+            "facetDescription": "Permanent"
+          },
+          {
+            "facetName": "EURES_FLAG",
+            "facetValue": "false",
+            "facetDescription": "Without EURES flag"
+          },
+          {
+            "facetName": "EXPERIENCE",
+            "facetValue": "B",
+            "facetDescription": "Up to 1 year"
+          },
+          {
+            "facetName": "LOCATION",
+            "facetValue": "BE211",
+            "facetDescription": "Arr. Antwerpen"
+          },
+          {
+            "facetName": "OCCUPATION",
+            "facetValue": "3257",
+            "facetDescription": "Environmental and occupational health inspectors and associates"
+          }
+        ]
+      }
+    , {
+        "jobVacancyHeader":          {
+          "jobVacancyHandle": "ded5952f9ab84dbcb671ce6eb538313b",
+          "dataSourceId": 40,
+          "dataSourceName": "VDAB, Public Employment Services, Belgium",
+          "dataSourceUniqueJVId": "55261007",
+          "title": "System Engineer ICT",
+          "jobDescription": "<ul>\n <li>Binnen een team van een 7-tal collega's sta je in voor hardware &amp; infrastructuur projecten.<\/li>\n <li>Je doet zowel analyse, voorbereiding, installatie als nazorg.<\/li>\n <li>Je zorgt ervoor dat de beschikbaarheid van de toepassingen en diensten gegarandeerd is.<\/li>\n <li>Je biedt ondersteuning voor incidenten bij gebruikers/klanten.<\/li>\n <li>Je zorgt ervoor dat de documentatie, instructies, procedures &amp; kennis up-to-date worden gehouden.<\/li>\n <li>Je bent het aanspreekpunt inzake IT-beheer en onderhoud.<\/li>\n <li>Nieuwe technologie&euml;n krijg je aangeleerd en pas je toe waar die het meest aangewezen zijn.<\/li>\n<\/ul>\n<p><\/p>\n<ul>\n <li>Je komt terecht in een gezond, stabiel bedrijf met een open, informele bedrijfscultuur.<\/li>\n <li>Organi biedt je de mogelijkheid om te werken in een ambitieus en dynamisch team.<\/li>\n <li>Je krijgt de mogelijkheid je talenten verder te ontwikkelen.<\/li>\n <li>Je kunt rekenen op een competitief salaris aangevuld met extra legale voordelen (groepsverzekering, hospitalisatieverzekering, maaltijdcheques � &eacute;n een bedrijfswagen.<\/li>\n <li>Toffe collega? en veel fun tijdens de talrijke extra professionele activiteiten.<\/li>\n<\/ul>\n<p><\/p>\n<p><\/p>\n<ul>\n <li>Je hebt een doorgedreven kennis van Windows Server omgevingen (AD, Exchange).<\/li>\n <li>Je bent geen vreemde als het over network security gaat.<\/li>\n <li>Je hebt een brede kennis van firewalls, network, switches, routers, Access Points, ..<\/li>\n <li>Kennis van virtualisatie is een plus (VMware).<\/li>\n <li>Je bent in het bezit van een bachelor diploma Toegepaste Informatica &gt; Systeem- en netwerkbeheer.<\/li>\n<\/ul>\n<p><\/p>",
+          "posts": 1,
+          "employerName": "ORGANI",
+          "salaryCurrencyCode": null,
+          "maximalSalary": 0,
+          "minimalSalary": 0,
+          "salaryPeriodCode": null,
+          "salaryTaxationCode": null,
+          "lastApplicationDate": "2016-10-31",
+          "endDate": null,
+          "startDate": null
+        },
+        "auditInfo":          {
+          "creationDate": "2016-10-07",
+          "modificationDate": "2016-10-12",
+          "replicationTimestamp": "2016-10-08T18:25:40"
+        },
+        "jobRelevance": {"relevanceScore": "3.2586427"},
+        "codeDescriptions":          {
+          "salaryCurrencyDescription": null,
+          "salaryPeriodDescription": null,
+          "salaryTaxationDescription": null
+        },
+        "related": {"urls": [         {
+          "urlName": "EURES portal",
+          "urlValue": "https://ec.europa.eu/eures/eures-searchengine/page/main?lang=en#/fullscreenJvView?uuId=ded5952f9ab84dbcb671ce6eb538313b&jvId=55261007&pesId=40"
+        }]},
+        "jobFacets":          [
+          {
+            "facetName": "CONTRACT_TYPE",
+            "facetValue": "F",
+            "facetDescription": "Full time"
+          },
+          {
+            "facetName": "CONTRACT_DURATION",
+            "facetValue": "P",
+            "facetDescription": "Permanent"
+          },
+          {
+            "facetName": "EURES_FLAG",
+            "facetValue": "false",
+            "facetDescription": "Without EURES flag"
+          },
+          {
+            "facetName": "EXPERIENCE",
+            "facetValue": "D",
+            "facetDescription": "Between 2 and 5 years"
+          },
+          {
+            "facetName": "LOCATION",
+            "facetValue": "BE211",
+            "facetDescription": "Arr. Antwerpen"
+          },
+          {
+            "facetName": "OCCUPATION",
+            "facetValue": "2519",
+            "facetDescription": "Software and applications developers and analysts not elsewhere classified"
+          }
+        ]
+      }
+    , {
+        "jobVacancyHeader":          {
+          "jobVacancyHandle": "a2008b6c5b8d4a33ada64e81c0e9b62a",
+          "dataSourceId": 40,
+          "dataSourceName": "VDAB, Public Employment Services, Belgium",
+          "dataSourceUniqueJVId": "5457982621",
+          "title": "Service Engineer Industrial IT Systems",
+          "jobDescription": "Our client is the \n<strong>worldwide leader in Automation Technologies for the Process Industry<\/strong>. With over 600 locations in more than 85 countries, they are the leading global supplier of products, services and solutions that measure, analyse, control, automate and improve process related operations across many industries. Located in Diegem, our client is serving the market of Belgium and Luxemburg with leading measurement instruments, control valves, process control systems and asset optimization solutions. To reinforce the Service Department we are currently looking for an enthusiastic (m/f): \n<strong>SERVICE ENGINEER SYSTEMS<\/strong> Following an intensive training period, you will provide quality and timely installation and maintenance of the products at the customers�site in Belux and in the service centre. You will become a technical ambassador to customers and deliver a high level of customer service. Depending on the clients�wishes and type of project and agreement you will support the installation and will be responsible for the configuration, training, service and maintenance of the systems at the customer site. As service engineer you will spend a lot of time at the customers�site delivering the correct service. Furthermore you will give the necessary explanation and demo? regarding the products. Most of the clients are situated in the process industry (pharmaceutical, (petro)chemical, refinery,�. Depending on your level of expertise you will provide training on the different products within your speciality.\n<p><\/p>\n<p>Our client offers you various career opportunities in an international environment. You will work in a pleasant, dynamic and flexible working environment. Our client will give you extended and continuous training and the ability to develop yourself and your skills to a high level of expertise. Furthermore to valorise your knowledge and efforts, you will receive an attractive salary including other benefits.<\/p>\n<p><\/p>\n<p>You have obtained with success a masters or bachelors degree in a technical direction (automation, electro mechanics, M&amp;R,...) and you are interested in working in a high tech environment where you have the ability to develop and specialize yourself. As ambassador of the company you have a customer-oriented attitude and the ability to communicate professionally at various levels. Experience as service engineer or a similar working environment is a valuable asset. Knowledge or feeling with ICT or electronics is a plus. Furthermore you are able to communicate in Dutch, English and French.<\/p>",
+          "posts": 1,
+          "employerName": "MONITOR",
+          "salaryCurrencyCode": null,
+          "maximalSalary": 0,
+          "minimalSalary": 0,
+          "salaryPeriodCode": null,
+          "salaryTaxationCode": null,
+          "lastApplicationDate": null,
+          "endDate": null,
+          "startDate": null
+        },
+        "auditInfo":          {
+          "creationDate": "2016-03-03",
+          "modificationDate": "2016-10-13",
+          "replicationTimestamp": "2016-03-04T18:07:34"
+        },
+        "jobRelevance": {"relevanceScore": "0.023823395"},
+        "codeDescriptions":          {
+          "salaryCurrencyDescription": null,
+          "salaryPeriodDescription": null,
+          "salaryTaxationDescription": null
+        },
+        "related": {"urls": [         {
+          "urlName": "EURES portal",
+          "urlValue": "https://ec.europa.eu/eures/eures-searchengine/page/main?lang=en#/fullscreenJvView?uuId=a2008b6c5b8d4a33ada64e81c0e9b63d&jvId=54579826&pesId=40"
+        }]},
+        "jobFacets":          [
+          {
+            "facetName": "CONTRACT_TYPE",
+            "facetValue": "F",
+            "facetDescription": "Full time"
+          },
+          {
+            "facetName": "CONTRACT_DURATION",
+            "facetValue": "P",
+            "facetDescription": "Permanent"
+          },
+          {
+            "facetName": "EURES_FLAG",
+            "facetValue": "false",
+            "facetDescription": "Without EURES flag"
+          },
+          {
+            "facetName": "EXPERIENCE",
+            "facetValue": "A",
+            "facetDescription": "None required"
+          },
+          {
+            "facetName": "LOCATION",
+            "facetValue": "BE211",
+            "facetDescription": "Arr. Antwerpen"
+          },
+          {
+            "facetName": "OCCUPATION",
+            "facetValue": "1330",
+            "facetDescription": "Information and communications technology service managers"
+          }
+        ]
+      }
+    , {
+        "jobVacancyHeader":          {
+          "jobVacancyHandle": "afb2a4f065fc472ba53b3cd4869f802b",
+          "dataSourceId": 40,
+          "dataSourceName": "VDAB, Public Employment Services, Belgium",
+          "dataSourceUniqueJVId": "5511877622",
+          "title": "Junior Analytical Quality Systems Support",
+          "jobDescription": "<p>Onze opdrachtgever is <strong>een grote speler in de industri&euml;le automatiseringsmarkt<\/strong>. Met het hoofdkantoor ten Westen van Antwerpen alsook enkele vestigingen wereldwijd (Europa, Noord-Amerika en China), staan ze reeds geruime tijd garant voor een optimale levering aan automatiseringsoplossingen die een meerwaarde bieden aan de logistieke en productieprocessen. Bestaande uit vier divisies (Life Sciences, Process Automation, Infra Automation en Consulting &amp; Services), weten ze gericht in te spelen op de behoeften van de klant en te komen tot een uitmuntend resultaat. Vandaag zijn ze op zoek naar een enthousiaste stafmedewerker kwaliteit (m/v) die de groeiende Europese organisatie mee ondersteunt bij de realisatie van een aantal interne kwaliteitsprojecten:<\/p>\n<p><strong>Junior Analytical Quality Systems Support<\/strong><\/p>\n<p><strong>De uitdaging:<\/strong><\/p>\n<ul>\n <li>Je ondersteunt de organisatie dagdagelijks op vlak van kwaliteit van de interne bedrijfsprocessen.<\/li>\n <li>Je co&ouml;rdineert een aantal interne verbeterprojecten, van behoeften-analyse tot en met implementatie.<\/li>\n <li>Je bewaakt hierbij de overeenstemming met het bestaande kwaliteitsmanagementsysteem en de gemeenschappelijke (cross-divisionele) belangen.<\/li>\n <li>Je waakt mee over de uniformiteit van processen over divisies heen, hetgeen zich vertaalt in aanpassingen aanbrengen binnen IT-systemen, formulieren etc. Mogelijks treed je bij sommige verbeterprojecten op als Project Lead.<\/li>\n <li>Je zorgt voor de integratie van de gewijzigde processtappen en bewaakt de consistentie met het Quality System.<\/li>\n <li>Je schrijft workflows, procedures en werkinstructies op basis van verzamelde informatie.<\/li>\n <li>Je geeft training en begeleidt nieuwkomers m.b.t. het kwaliteitssysteem.<\/li>\n <li>Verder ondersteun je de kwaliteitsorganisatie bij de dagdagelijkse kwaliteisprocessen. (o.a. klachtenmanagement, klantentevredenheid, Interne audits,� : uitvoeren van analyses, nieuwsbrieven (artikels) opmaken, �\/li>\n <li>Je waakt mee over de correcte toepassing van gemaakte afspraken en kwaliteitspolicies.<\/li>\n<\/ul>\n<p>Werk mee in een lerende omgeving, waar opleiding de nodige aandacht krijgt. Maak deel uit van een technologie-gedreven team en een bedrijfsklimaat dat creativiteit stimuleert en waar intrapreneurship wordt aangemoedigd. Uiteraard krijg je ook een marktconform verlonigspakket.<\/p>\n<p><\/p>\n<ul>\n <li>De wereld van automatisering en techniek spreekt jou aan en je hebt affiniteit met hedendaagse ICT-Tools (ervaring met Process Tools is een voordeel).<\/li>\n <li>Je hebt ervaring met projectmatig werken, bij voorkeur in het kader van interne procesverbeteringen.<\/li>\n <li>Je bent sterk in analytisch en procesmatig denken.<\/li>\n <li>Je beschikt over sterke communicatieve vaardigheden en gaat gestructureerd en ordelijk te werk.<\/li>\n <li>Je kan idee&euml;n vlot op papier zetten.<\/li>\n <li>Vereisten naar scholing en ervaring toe: je beschikt over een masterdiploma en hebt bij voorkeur een eerste ervaring met (of theoretische kennis van) kwaliteitssystemen (Bv. ISO9001).<\/li>\n <li>Je drukt je vlot uit in het Nederlands en het Engels.<\/li>\n<\/ul>\n<p><\/p>",
+          "posts": 1,
+          "employerName": "MONITOR",
+          "salaryCurrencyCode": null,
+          "maximalSalary": 0,
+          "minimalSalary": 0,
+          "salaryPeriodCode": null,
+          "salaryTaxationCode": null,
+          "lastApplicationDate": null,
+          "endDate": null,
+          "startDate": null
+        },
+        "auditInfo":          {
+          "creationDate": "2016-08-26",
+          "modificationDate": "2016-08-30",
+          "replicationTimestamp": "2016-08-27T18:05:34"
+        },
+        "jobRelevance": {"relevanceScore": "0.023823395"},
+        "codeDescriptions":          {
+          "salaryCurrencyDescription": null,
+          "salaryPeriodDescription": null,
+          "salaryTaxationDescription": null
+        },
+        "related": {"urls": [         {
+          "urlName": "EURES portal",
+          "urlValue": "https://ec.europa.eu/eures/eures-searchengine/page/main?lang=en#/fullscreenJvView?uuId=afb2a4f065fc472ba53b3cd4869f8016&jvId=55118776&pesId=40"
+        }]},
+        "jobFacets":          [
+          {
+            "facetName": "CONTRACT_TYPE",
+            "facetValue": "F",
+            "facetDescription": "Full time"
+          },
+          {
+            "facetName": "CONTRACT_DURATION",
+            "facetValue": "P",
+            "facetDescription": "Permanent"
+          },
+          {
+            "facetName": "EURES_FLAG",
+            "facetValue": "false",
+            "facetDescription": "Without EURES flag"
+          },
+          {
+            "facetName": "EXPERIENCE",
+            "facetValue": "B",
+            "facetDescription": "Up to 1 year"
+          },
+          {
+            "facetName": "LOCATION",
+            "facetValue": "BE211",
+            "facetDescription": "Arr. Antwerpen"
+          },
+          {
+            "facetName": "OCCUPATION",
+            "facetValue": "3257",
+            "facetDescription": "Environmental and occupational health inspectors and associates"
+          }
+        ]
+      }
+    , {
+        "jobVacancyHeader":          {
+          "jobVacancyHandle": "ded5952f9ab84dbcb671ce6eb538312c",
+          "dataSourceId": 40,
+          "dataSourceName": "VDAB, Public Employment Services, Belgium",
+          "dataSourceUniqueJVId": "5526100723",
+          "title": "System Engineer ICT",
+          "jobDescription": "<ul>\n <li>Binnen een team van een 7-tal collega's sta je in voor hardware &amp; infrastructuur projecten.<\/li>\n <li>Je doet zowel analyse, voorbereiding, installatie als nazorg.<\/li>\n <li>Je zorgt ervoor dat de beschikbaarheid van de toepassingen en diensten gegarandeerd is.<\/li>\n <li>Je biedt ondersteuning voor incidenten bij gebruikers/klanten.<\/li>\n <li>Je zorgt ervoor dat de documentatie, instructies, procedures &amp; kennis up-to-date worden gehouden.<\/li>\n <li>Je bent het aanspreekpunt inzake IT-beheer en onderhoud.<\/li>\n <li>Nieuwe technologie&euml;n krijg je aangeleerd en pas je toe waar die het meest aangewezen zijn.<\/li>\n<\/ul>\n<p><\/p>\n<ul>\n <li>Je komt terecht in een gezond, stabiel bedrijf met een open, informele bedrijfscultuur.<\/li>\n <li>Organi biedt je de mogelijkheid om te werken in een ambitieus en dynamisch team.<\/li>\n <li>Je krijgt de mogelijkheid je talenten verder te ontwikkelen.<\/li>\n <li>Je kunt rekenen op een competitief salaris aangevuld met extra legale voordelen (groepsverzekering, hospitalisatieverzekering, maaltijdcheques � &eacute;n een bedrijfswagen.<\/li>\n <li>Toffe collega? en veel fun tijdens de talrijke extra professionele activiteiten.<\/li>\n<\/ul>\n<p><\/p>\n<p><\/p>\n<ul>\n <li>Je hebt een doorgedreven kennis van Windows Server omgevingen (AD, Exchange).<\/li>\n <li>Je bent geen vreemde als het over network security gaat.<\/li>\n <li>Je hebt een brede kennis van firewalls, network, switches, routers, Access Points, ..<\/li>\n <li>Kennis van virtualisatie is een plus (VMware).<\/li>\n <li>Je bent in het bezit van een bachelor diploma Toegepaste Informatica &gt; Systeem- en netwerkbeheer.<\/li>\n<\/ul>\n<p><\/p>",
+          "posts": 1,
+          "employerName": "ORGANI",
+          "salaryCurrencyCode": null,
+          "maximalSalary": 0,
+          "minimalSalary": 0,
+          "salaryPeriodCode": null,
+          "salaryTaxationCode": null,
+          "lastApplicationDate": "2016-10-31",
+          "endDate": null,
+          "startDate": null
+        },
+        "auditInfo":          {
+          "creationDate": "2016-10-07",
+          "modificationDate": "2016-10-12",
+          "replicationTimestamp": "2016-10-08T18:25:40"
+        },
+        "jobRelevance": {"relevanceScore": "3.2586427"},
+        "codeDescriptions":          {
+          "salaryCurrencyDescription": null,
+          "salaryPeriodDescription": null,
+          "salaryTaxationDescription": null
+        },
+        "related": {"urls": [         {
+          "urlName": "EURES portal",
+          "urlValue": "https://ec.europa.eu/eures/eures-searchengine/page/main?lang=en#/fullscreenJvView?uuId=ded5952f9ab84dbcb671ce6eb538313b&jvId=55261007&pesId=40"
+        }]},
+        "jobFacets":          [
+          {
+            "facetName": "CONTRACT_TYPE",
+            "facetValue": "F",
+            "facetDescription": "Full time"
+          },
+          {
+            "facetName": "CONTRACT_DURATION",
+            "facetValue": "P",
+            "facetDescription": "Permanent"
+          },
+          {
+            "facetName": "EURES_FLAG",
+            "facetValue": "false",
+            "facetDescription": "Without EURES flag"
+          },
+          {
+            "facetName": "EXPERIENCE",
+            "facetValue": "D",
+            "facetDescription": "Between 2 and 5 years"
+          },
+          {
+            "facetName": "LOCATION",
+            "facetValue": "BE211",
+            "facetDescription": "Arr. Antwerpen"
+          },
+          {
+            "facetName": "OCCUPATION",
+            "facetValue": "2519",
+            "facetDescription": "Software and applications developers and analysts not elsewhere classified"
+          }
+        ]
+      }
+    , {
+        "jobVacancyHeader":          {
+          "jobVacancyHandle": "a2008b6c5b8d4a33ada64e81c0e9b63a",
+          "dataSourceId": 40,
+          "dataSourceName": "VDAB, Public Employment Services, Belgium",
+          "dataSourceUniqueJVId": "5457982631",
+          "title": "Service Engineer Industrial IT Systems",
+          "jobDescription": "Our client is the \n<strong>worldwide leader in Automation Technologies for the Process Industry<\/strong>. With over 600 locations in more than 85 countries, they are the leading global supplier of products, services and solutions that measure, analyse, control, automate and improve process related operations across many industries. Located in Diegem, our client is serving the market of Belgium and Luxemburg with leading measurement instruments, control valves, process control systems and asset optimization solutions. To reinforce the Service Department we are currently looking for an enthusiastic (m/f): \n<strong>SERVICE ENGINEER SYSTEMS<\/strong> Following an intensive training period, you will provide quality and timely installation and maintenance of the products at the customers�site in Belux and in the service centre. You will become a technical ambassador to customers and deliver a high level of customer service. Depending on the clients�wishes and type of project and agreement you will support the installation and will be responsible for the configuration, training, service and maintenance of the systems at the customer site. As service engineer you will spend a lot of time at the customers�site delivering the correct service. Furthermore you will give the necessary explanation and demo? regarding the products. Most of the clients are situated in the process industry (pharmaceutical, (petro)chemical, refinery,�. Depending on your level of expertise you will provide training on the different products within your speciality.\n<p><\/p>\n<p>Our client offers you various career opportunities in an international environment. You will work in a pleasant, dynamic and flexible working environment. Our client will give you extended and continuous training and the ability to develop yourself and your skills to a high level of expertise. Furthermore to valorise your knowledge and efforts, you will receive an attractive salary including other benefits.<\/p>\n<p><\/p>\n<p>You have obtained with success a masters or bachelors degree in a technical direction (automation, electro mechanics, M&amp;R,...) and you are interested in working in a high tech environment where you have the ability to develop and specialize yourself. As ambassador of the company you have a customer-oriented attitude and the ability to communicate professionally at various levels. Experience as service engineer or a similar working environment is a valuable asset. Knowledge or feeling with ICT or electronics is a plus. Furthermore you are able to communicate in Dutch, English and French.<\/p>",
+          "posts": 1,
+          "employerName": "MONITOR",
+          "salaryCurrencyCode": null,
+          "maximalSalary": 0,
+          "minimalSalary": 0,
+          "salaryPeriodCode": null,
+          "salaryTaxationCode": null,
+          "lastApplicationDate": null,
+          "endDate": null,
+          "startDate": null
+        },
+        "auditInfo":          {
+          "creationDate": "2016-03-03",
+          "modificationDate": "2016-10-13",
+          "replicationTimestamp": "2016-03-04T18:07:34"
+        },
+        "jobRelevance": {"relevanceScore": "0.023823395"},
+        "codeDescriptions":          {
+          "salaryCurrencyDescription": null,
+          "salaryPeriodDescription": null,
+          "salaryTaxationDescription": null
+        },
+        "related": {"urls": [         {
+          "urlName": "EURES portal",
+          "urlValue": "https://ec.europa.eu/eures/eures-searchengine/page/main?lang=en#/fullscreenJvView?uuId=a2008b6c5b8d4a33ada64e81c0e9b63d&jvId=54579826&pesId=40"
+        }]},
+        "jobFacets":          [
+          {
+            "facetName": "CONTRACT_TYPE",
+            "facetValue": "F",
+            "facetDescription": "Full time"
+          },
+          {
+            "facetName": "CONTRACT_DURATION",
+            "facetValue": "P",
+            "facetDescription": "Permanent"
+          },
+          {
+            "facetName": "EURES_FLAG",
+            "facetValue": "false",
+            "facetDescription": "Without EURES flag"
+          },
+          {
+            "facetName": "EXPERIENCE",
+            "facetValue": "A",
+            "facetDescription": "None required"
+          },
+          {
+            "facetName": "LOCATION",
+            "facetValue": "BE211",
+            "facetDescription": "Arr. Antwerpen"
+          },
+          {
+            "facetName": "OCCUPATION",
+            "facetValue": "1330",
+            "facetDescription": "Information and communications technology service managers"
+          }
+        ]
+      }
+    , {
+        "jobVacancyHeader":          {
+          "jobVacancyHandle": "afb2a4f065fc472ba53b3cd4869f803b",
+          "dataSourceId": 40,
+          "dataSourceName": "VDAB, Public Employment Services, Belgium",
+          "dataSourceUniqueJVId": "5511877632",
+          "title": "Junior Analytical Quality Systems Support",
+          "jobDescription": "<p>Onze opdrachtgever is <strong>een grote speler in de industri&euml;le automatiseringsmarkt<\/strong>. Met het hoofdkantoor ten Westen van Antwerpen alsook enkele vestigingen wereldwijd (Europa, Noord-Amerika en China), staan ze reeds geruime tijd garant voor een optimale levering aan automatiseringsoplossingen die een meerwaarde bieden aan de logistieke en productieprocessen. Bestaande uit vier divisies (Life Sciences, Process Automation, Infra Automation en Consulting &amp; Services), weten ze gericht in te spelen op de behoeften van de klant en te komen tot een uitmuntend resultaat. Vandaag zijn ze op zoek naar een enthousiaste stafmedewerker kwaliteit (m/v) die de groeiende Europese organisatie mee ondersteunt bij de realisatie van een aantal interne kwaliteitsprojecten:<\/p>\n<p><strong>Junior Analytical Quality Systems Support<\/strong><\/p>\n<p><strong>De uitdaging:<\/strong><\/p>\n<ul>\n <li>Je ondersteunt de organisatie dagdagelijks op vlak van kwaliteit van de interne bedrijfsprocessen.<\/li>\n <li>Je co&ouml;rdineert een aantal interne verbeterprojecten, van behoeften-analyse tot en met implementatie.<\/li>\n <li>Je bewaakt hierbij de overeenstemming met het bestaande kwaliteitsmanagementsysteem en de gemeenschappelijke (cross-divisionele) belangen.<\/li>\n <li>Je waakt mee over de uniformiteit van processen over divisies heen, hetgeen zich vertaalt in aanpassingen aanbrengen binnen IT-systemen, formulieren etc. Mogelijks treed je bij sommige verbeterprojecten op als Project Lead.<\/li>\n <li>Je zorgt voor de integratie van de gewijzigde processtappen en bewaakt de consistentie met het Quality System.<\/li>\n <li>Je schrijft workflows, procedures en werkinstructies op basis van verzamelde informatie.<\/li>\n <li>Je geeft training en begeleidt nieuwkomers m.b.t. het kwaliteitssysteem.<\/li>\n <li>Verder ondersteun je de kwaliteitsorganisatie bij de dagdagelijkse kwaliteisprocessen. (o.a. klachtenmanagement, klantentevredenheid, Interne audits,� : uitvoeren van analyses, nieuwsbrieven (artikels) opmaken, �\/li>\n <li>Je waakt mee over de correcte toepassing van gemaakte afspraken en kwaliteitspolicies.<\/li>\n<\/ul>\n<p>Werk mee in een lerende omgeving, waar opleiding de nodige aandacht krijgt. Maak deel uit van een technologie-gedreven team en een bedrijfsklimaat dat creativiteit stimuleert en waar intrapreneurship wordt aangemoedigd. Uiteraard krijg je ook een marktconform verlonigspakket.<\/p>\n<p><\/p>\n<ul>\n <li>De wereld van automatisering en techniek spreekt jou aan en je hebt affiniteit met hedendaagse ICT-Tools (ervaring met Process Tools is een voordeel).<\/li>\n <li>Je hebt ervaring met projectmatig werken, bij voorkeur in het kader van interne procesverbeteringen.<\/li>\n <li>Je bent sterk in analytisch en procesmatig denken.<\/li>\n <li>Je beschikt over sterke communicatieve vaardigheden en gaat gestructureerd en ordelijk te werk.<\/li>\n <li>Je kan idee&euml;n vlot op papier zetten.<\/li>\n <li>Vereisten naar scholing en ervaring toe: je beschikt over een masterdiploma en hebt bij voorkeur een eerste ervaring met (of theoretische kennis van) kwaliteitssystemen (Bv. ISO9001).<\/li>\n <li>Je drukt je vlot uit in het Nederlands en het Engels.<\/li>\n<\/ul>\n<p><\/p>",
+          "posts": 1,
+          "employerName": "MONITOR",
+          "salaryCurrencyCode": null,
+          "maximalSalary": 0,
+          "minimalSalary": 0,
+          "salaryPeriodCode": null,
+          "salaryTaxationCode": null,
+          "lastApplicationDate": null,
+          "endDate": null,
+          "startDate": null
+        },
+        "auditInfo":          {
+          "creationDate": "2016-08-26",
+          "modificationDate": "2016-08-30",
+          "replicationTimestamp": "2016-08-27T18:05:34"
+        },
+        "jobRelevance": {"relevanceScore": "0.023823395"},
+        "codeDescriptions":          {
+          "salaryCurrencyDescription": null,
+          "salaryPeriodDescription": null,
+          "salaryTaxationDescription": null
+        },
+        "related": {"urls": [         {
+          "urlName": "EURES portal",
+          "urlValue": "https://ec.europa.eu/eures/eures-searchengine/page/main?lang=en#/fullscreenJvView?uuId=afb2a4f065fc472ba53b3cd4869f8016&jvId=55118776&pesId=40"
+        }]},
+        "jobFacets":          [
+          {
+            "facetName": "CONTRACT_TYPE",
+            "facetValue": "F",
+            "facetDescription": "Full time"
+          },
+          {
+            "facetName": "CONTRACT_DURATION",
+            "facetValue": "P",
+            "facetDescription": "Permanent"
+          },
+          {
+            "facetName": "EURES_FLAG",
+            "facetValue": "false",
+            "facetDescription": "Without EURES flag"
+          },
+          {
+            "facetName": "EXPERIENCE",
+            "facetValue": "B",
+            "facetDescription": "Up to 1 year"
+          },
+          {
+            "facetName": "LOCATION",
+            "facetValue": "BE211",
+            "facetDescription": "Arr. Antwerpen"
+          },
+          {
+            "facetName": "OCCUPATION",
+            "facetValue": "3257",
+            "facetDescription": "Environmental and occupational health inspectors and associates"
+          }
+        ]
+      }
+    , {
+        "jobVacancyHeader":          {
+          "jobVacancyHandle": "ded5952f9ab84dbcb671ce6eb538313c",
+          "dataSourceId": 40,
+          "dataSourceName": "VDAB, Public Employment Services, Belgium",
+          "dataSourceUniqueJVId": "5526100733",
+          "title": "System Engineer ICT",
+          "jobDescription": "<ul>\n <li>Binnen een team van een 7-tal collega's sta je in voor hardware &amp; infrastructuur projecten.<\/li>\n <li>Je doet zowel analyse, voorbereiding, installatie als nazorg.<\/li>\n <li>Je zorgt ervoor dat de beschikbaarheid van de toepassingen en diensten gegarandeerd is.<\/li>\n <li>Je biedt ondersteuning voor incidenten bij gebruikers/klanten.<\/li>\n <li>Je zorgt ervoor dat de documentatie, instructies, procedures &amp; kennis up-to-date worden gehouden.<\/li>\n <li>Je bent het aanspreekpunt inzake IT-beheer en onderhoud.<\/li>\n <li>Nieuwe technologie&euml;n krijg je aangeleerd en pas je toe waar die het meest aangewezen zijn.<\/li>\n<\/ul>\n<p><\/p>\n<ul>\n <li>Je komt terecht in een gezond, stabiel bedrijf met een open, informele bedrijfscultuur.<\/li>\n <li>Organi biedt je de mogelijkheid om te werken in een ambitieus en dynamisch team.<\/li>\n <li>Je krijgt de mogelijkheid je talenten verder te ontwikkelen.<\/li>\n <li>Je kunt rekenen op een competitief salaris aangevuld met extra legale voordelen (groepsverzekering, hospitalisatieverzekering, maaltijdcheques � &eacute;n een bedrijfswagen.<\/li>\n <li>Toffe collega? en veel fun tijdens de talrijke extra professionele activiteiten.<\/li>\n<\/ul>\n<p><\/p>\n<p><\/p>\n<ul>\n <li>Je hebt een doorgedreven kennis van Windows Server omgevingen (AD, Exchange).<\/li>\n <li>Je bent geen vreemde als het over network security gaat.<\/li>\n <li>Je hebt een brede kennis van firewalls, network, switches, routers, Access Points, ..<\/li>\n <li>Kennis van virtualisatie is een plus (VMware).<\/li>\n <li>Je bent in het bezit van een bachelor diploma Toegepaste Informatica &gt; Systeem- en netwerkbeheer.<\/li>\n<\/ul>\n<p><\/p>",
+          "posts": 1,
+          "employerName": "ORGANI",
+          "salaryCurrencyCode": null,
+          "maximalSalary": 0,
+          "minimalSalary": 0,
+          "salaryPeriodCode": null,
+          "salaryTaxationCode": null,
+          "lastApplicationDate": "2016-10-31",
+          "endDate": null,
+          "startDate": null
+        },
+        "auditInfo":          {
+          "creationDate": "2016-10-07",
+          "modificationDate": "2016-10-12",
+          "replicationTimestamp": "2016-10-08T18:25:40"
+        },
+        "jobRelevance": {"relevanceScore": "3.2586427"},
+        "codeDescriptions":          {
+          "salaryCurrencyDescription": null,
+          "salaryPeriodDescription": null,
+          "salaryTaxationDescription": null
+        },
+        "related": {"urls": [         {
+          "urlName": "EURES portal",
+          "urlValue": "https://ec.europa.eu/eures/eures-searchengine/page/main?lang=en#/fullscreenJvView?uuId=ded5952f9ab84dbcb671ce6eb538313b&jvId=55261007&pesId=40"
+        }]},
+        "jobFacets":          [
+          {
+            "facetName": "CONTRACT_TYPE",
+            "facetValue": "F",
+            "facetDescription": "Full time"
+          },
+          {
+            "facetName": "CONTRACT_DURATION",
+            "facetValue": "P",
+            "facetDescription": "Permanent"
+          },
+          {
+            "facetName": "EURES_FLAG",
+            "facetValue": "false",
+            "facetDescription": "Without EURES flag"
+          },
+          {
+            "facetName": "EXPERIENCE",
+            "facetValue": "D",
+            "facetDescription": "Between 2 and 5 years"
+          },
+          {
+            "facetName": "LOCATION",
+            "facetValue": "BE211",
+            "facetDescription": "Arr. Antwerpen"
+          },
+          {
+            "facetName": "OCCUPATION",
+            "facetValue": "2519",
+            "facetDescription": "Software and applications developers and analysts not elsewhere classified"
+          }
+        ]
+      }
+    , {
+        "jobVacancyHeader":          {
+          "jobVacancyHandle": "a2008b6c5b8d4a33ada64e81c0e9b64a",
+          "dataSourceId": 40,
+          "dataSourceName": "VDAB, Public Employment Services, Belgium",
+          "dataSourceUniqueJVId": "5457982641",
+          "title": "Service Engineer Industrial IT Systems",
+          "jobDescription": "Our client is the \n<strong>worldwide leader in Automation Technologies for the Process Industry<\/strong>. With over 600 locations in more than 85 countries, they are the leading global supplier of products, services and solutions that measure, analyse, control, automate and improve process related operations across many industries. Located in Diegem, our client is serving the market of Belgium and Luxemburg with leading measurement instruments, control valves, process control systems and asset optimization solutions. To reinforce the Service Department we are currently looking for an enthusiastic (m/f): \n<strong>SERVICE ENGINEER SYSTEMS<\/strong> Following an intensive training period, you will provide quality and timely installation and maintenance of the products at the customers�site in Belux and in the service centre. You will become a technical ambassador to customers and deliver a high level of customer service. Depending on the clients�wishes and type of project and agreement you will support the installation and will be responsible for the configuration, training, service and maintenance of the systems at the customer site. As service engineer you will spend a lot of time at the customers�site delivering the correct service. Furthermore you will give the necessary explanation and demo? regarding the products. Most of the clients are situated in the process industry (pharmaceutical, (petro)chemical, refinery,�. Depending on your level of expertise you will provide training on the different products within your speciality.\n<p><\/p>\n<p>Our client offers you various career opportunities in an international environment. You will work in a pleasant, dynamic and flexible working environment. Our client will give you extended and continuous training and the ability to develop yourself and your skills to a high level of expertise. Furthermore to valorise your knowledge and efforts, you will receive an attractive salary including other benefits.<\/p>\n<p><\/p>\n<p>You have obtained with success a masters or bachelors degree in a technical direction (automation, electro mechanics, M&amp;R,...) and you are interested in working in a high tech environment where you have the ability to develop and specialize yourself. As ambassador of the company you have a customer-oriented attitude and the ability to communicate professionally at various levels. Experience as service engineer or a similar working environment is a valuable asset. Knowledge or feeling with ICT or electronics is a plus. Furthermore you are able to communicate in Dutch, English and French.<\/p>",
+          "posts": 1,
+          "employerName": "MONITOR",
+          "salaryCurrencyCode": null,
+          "maximalSalary": 0,
+          "minimalSalary": 0,
+          "salaryPeriodCode": null,
+          "salaryTaxationCode": null,
+          "lastApplicationDate": null,
+          "endDate": null,
+          "startDate": null
+        },
+        "auditInfo":          {
+          "creationDate": "2016-03-03",
+          "modificationDate": "2016-10-13",
+          "replicationTimestamp": "2016-03-04T18:07:34"
+        },
+        "jobRelevance": {"relevanceScore": "0.023823395"},
+        "codeDescriptions":          {
+          "salaryCurrencyDescription": null,
+          "salaryPeriodDescription": null,
+          "salaryTaxationDescription": null
+        },
+        "related": {"urls": [         {
+          "urlName": "EURES portal",
+          "urlValue": "https://ec.europa.eu/eures/eures-searchengine/page/main?lang=en#/fullscreenJvView?uuId=a2008b6c5b8d4a33ada64e81c0e9b63d&jvId=54579826&pesId=40"
+        }]},
+        "jobFacets":          [
+          {
+            "facetName": "CONTRACT_TYPE",
+            "facetValue": "F",
+            "facetDescription": "Full time"
+          },
+          {
+            "facetName": "CONTRACT_DURATION",
+            "facetValue": "P",
+            "facetDescription": "Permanent"
+          },
+          {
+            "facetName": "EURES_FLAG",
+            "facetValue": "false",
+            "facetDescription": "Without EURES flag"
+          },
+          {
+            "facetName": "EXPERIENCE",
+            "facetValue": "A",
+            "facetDescription": "None required"
+          },
+          {
+            "facetName": "LOCATION",
+            "facetValue": "BE211",
+            "facetDescription": "Arr. Antwerpen"
+          },
+          {
+            "facetName": "OCCUPATION",
+            "facetValue": "1330",
+            "facetDescription": "Information and communications technology service managers"
+          }
+        ]
+      }
+    , {
+        "jobVacancyHeader":          {
+          "jobVacancyHandle": "afb2a4f065fc472ba53b3cd4869f804b",
+          "dataSourceId": 40,
+          "dataSourceName": "VDAB, Public Employment Services, Belgium",
+          "dataSourceUniqueJVId": "5511877642",
+          "title": "Junior Analytical Quality Systems Support",
+          "jobDescription": "<p>Onze opdrachtgever is <strong>een grote speler in de industri&euml;le automatiseringsmarkt<\/strong>. Met het hoofdkantoor ten Westen van Antwerpen alsook enkele vestigingen wereldwijd (Europa, Noord-Amerika en China), staan ze reeds geruime tijd garant voor een optimale levering aan automatiseringsoplossingen die een meerwaarde bieden aan de logistieke en productieprocessen. Bestaande uit vier divisies (Life Sciences, Process Automation, Infra Automation en Consulting &amp; Services), weten ze gericht in te spelen op de behoeften van de klant en te komen tot een uitmuntend resultaat. Vandaag zijn ze op zoek naar een enthousiaste stafmedewerker kwaliteit (m/v) die de groeiende Europese organisatie mee ondersteunt bij de realisatie van een aantal interne kwaliteitsprojecten:<\/p>\n<p><strong>Junior Analytical Quality Systems Support<\/strong><\/p>\n<p><strong>De uitdaging:<\/strong><\/p>\n<ul>\n <li>Je ondersteunt de organisatie dagdagelijks op vlak van kwaliteit van de interne bedrijfsprocessen.<\/li>\n <li>Je co&ouml;rdineert een aantal interne verbeterprojecten, van behoeften-analyse tot en met implementatie.<\/li>\n <li>Je bewaakt hierbij de overeenstemming met het bestaande kwaliteitsmanagementsysteem en de gemeenschappelijke (cross-divisionele) belangen.<\/li>\n <li>Je waakt mee over de uniformiteit van processen over divisies heen, hetgeen zich vertaalt in aanpassingen aanbrengen binnen IT-systemen, formulieren etc. Mogelijks treed je bij sommige verbeterprojecten op als Project Lead.<\/li>\n <li>Je zorgt voor de integratie van de gewijzigde processtappen en bewaakt de consistentie met het Quality System.<\/li>\n <li>Je schrijft workflows, procedures en werkinstructies op basis van verzamelde informatie.<\/li>\n <li>Je geeft training en begeleidt nieuwkomers m.b.t. het kwaliteitssysteem.<\/li>\n <li>Verder ondersteun je de kwaliteitsorganisatie bij de dagdagelijkse kwaliteisprocessen. (o.a. klachtenmanagement, klantentevredenheid, Interne audits,� : uitvoeren van analyses, nieuwsbrieven (artikels) opmaken, �\/li>\n <li>Je waakt mee over de correcte toepassing van gemaakte afspraken en kwaliteitspolicies.<\/li>\n<\/ul>\n<p>Werk mee in een lerende omgeving, waar opleiding de nodige aandacht krijgt. Maak deel uit van een technologie-gedreven team en een bedrijfsklimaat dat creativiteit stimuleert en waar intrapreneurship wordt aangemoedigd. Uiteraard krijg je ook een marktconform verlonigspakket.<\/p>\n<p><\/p>\n<ul>\n <li>De wereld van automatisering en techniek spreekt jou aan en je hebt affiniteit met hedendaagse ICT-Tools (ervaring met Process Tools is een voordeel).<\/li>\n <li>Je hebt ervaring met projectmatig werken, bij voorkeur in het kader van interne procesverbeteringen.<\/li>\n <li>Je bent sterk in analytisch en procesmatig denken.<\/li>\n <li>Je beschikt over sterke communicatieve vaardigheden en gaat gestructureerd en ordelijk te werk.<\/li>\n <li>Je kan idee&euml;n vlot op papier zetten.<\/li>\n <li>Vereisten naar scholing en ervaring toe: je beschikt over een masterdiploma en hebt bij voorkeur een eerste ervaring met (of theoretische kennis van) kwaliteitssystemen (Bv. ISO9001).<\/li>\n <li>Je drukt je vlot uit in het Nederlands en het Engels.<\/li>\n<\/ul>\n<p><\/p>",
+          "posts": 1,
+          "employerName": "MONITOR",
+          "salaryCurrencyCode": null,
+          "maximalSalary": 0,
+          "minimalSalary": 0,
+          "salaryPeriodCode": null,
+          "salaryTaxationCode": null,
+          "lastApplicationDate": null,
+          "endDate": null,
+          "startDate": null
+        },
+        "auditInfo":          {
+          "creationDate": "2016-08-26",
+          "modificationDate": "2016-08-30",
+          "replicationTimestamp": "2016-08-27T18:05:34"
+        },
+        "jobRelevance": {"relevanceScore": "0.023823395"},
+        "codeDescriptions":          {
+          "salaryCurrencyDescription": null,
+          "salaryPeriodDescription": null,
+          "salaryTaxationDescription": null
+        },
+        "related": {"urls": [         {
+          "urlName": "EURES portal",
+          "urlValue": "https://ec.europa.eu/eures/eures-searchengine/page/main?lang=en#/fullscreenJvView?uuId=afb2a4f065fc472ba53b3cd4869f8016&jvId=55118776&pesId=40"
+        }]},
+        "jobFacets":          [
+          {
+            "facetName": "CONTRACT_TYPE",
+            "facetValue": "F",
+            "facetDescription": "Full time"
+          },
+          {
+            "facetName": "CONTRACT_DURATION",
+            "facetValue": "P",
+            "facetDescription": "Permanent"
+          },
+          {
+            "facetName": "EURES_FLAG",
+            "facetValue": "false",
+            "facetDescription": "Without EURES flag"
+          },
+          {
+            "facetName": "EXPERIENCE",
+            "facetValue": "B",
+            "facetDescription": "Up to 1 year"
+          },
+          {
+            "facetName": "LOCATION",
+            "facetValue": "BE211",
+            "facetDescription": "Arr. Antwerpen"
+          },
+          {
+            "facetName": "OCCUPATION",
+            "facetValue": "3257",
+            "facetDescription": "Environmental and occupational health inspectors and associates"
+          }
+        ]
+      }
+    , {
+        "jobVacancyHeader":          {
+          "jobVacancyHandle": "ded5952f9ab84dbcb671ce6eb538314c",
+          "dataSourceId": 40,
+          "dataSourceName": "VDAB, Public Employment Services, Belgium",
+          "dataSourceUniqueJVId": "5526100743",
+          "title": "System Engineer ICT",
+          "jobDescription": "<ul>\n <li>Binnen een team van een 7-tal collega's sta je in voor hardware &amp; infrastructuur projecten.<\/li>\n <li>Je doet zowel analyse, voorbereiding, installatie als nazorg.<\/li>\n <li>Je zorgt ervoor dat de beschikbaarheid van de toepassingen en diensten gegarandeerd is.<\/li>\n <li>Je biedt ondersteuning voor incidenten bij gebruikers/klanten.<\/li>\n <li>Je zorgt ervoor dat de documentatie, instructies, procedures &amp; kennis up-to-date worden gehouden.<\/li>\n <li>Je bent het aanspreekpunt inzake IT-beheer en onderhoud.<\/li>\n <li>Nieuwe technologie&euml;n krijg je aangeleerd en pas je toe waar die het meest aangewezen zijn.<\/li>\n<\/ul>\n<p><\/p>\n<ul>\n <li>Je komt terecht in een gezond, stabiel bedrijf met een open, informele bedrijfscultuur.<\/li>\n <li>Organi biedt je de mogelijkheid om te werken in een ambitieus en dynamisch team.<\/li>\n <li>Je krijgt de mogelijkheid je talenten verder te ontwikkelen.<\/li>\n <li>Je kunt rekenen op een competitief salaris aangevuld met extra legale voordelen (groepsverzekering, hospitalisatieverzekering, maaltijdcheques � &eacute;n een bedrijfswagen.<\/li>\n <li>Toffe collega? en veel fun tijdens de talrijke extra professionele activiteiten.<\/li>\n<\/ul>\n<p><\/p>\n<p><\/p>\n<ul>\n <li>Je hebt een doorgedreven kennis van Windows Server omgevingen (AD, Exchange).<\/li>\n <li>Je bent geen vreemde als het over network security gaat.<\/li>\n <li>Je hebt een brede kennis van firewalls, network, switches, routers, Access Points, ..<\/li>\n <li>Kennis van virtualisatie is een plus (VMware).<\/li>\n <li>Je bent in het bezit van een bachelor diploma Toegepaste Informatica &gt; Systeem- en netwerkbeheer.<\/li>\n<\/ul>\n<p><\/p>",
+          "posts": 1,
+          "employerName": "ORGANI",
+          "salaryCurrencyCode": null,
+          "maximalSalary": 0,
+          "minimalSalary": 0,
+          "salaryPeriodCode": null,
+          "salaryTaxationCode": null,
+          "lastApplicationDate": "2016-10-31",
+          "endDate": null,
+          "startDate": null
+        },
+        "auditInfo":          {
+          "creationDate": "2016-10-07",
+          "modificationDate": "2016-10-12",
+          "replicationTimestamp": "2016-10-08T18:25:40"
+        },
+        "jobRelevance": {"relevanceScore": "3.2586427"},
+        "codeDescriptions":          {
+          "salaryCurrencyDescription": null,
+          "salaryPeriodDescription": null,
+          "salaryTaxationDescription": null
+        },
+        "related": {"urls": [         {
+          "urlName": "EURES portal",
+          "urlValue": "https://ec.europa.eu/eures/eures-searchengine/page/main?lang=en#/fullscreenJvView?uuId=ded5952f9ab84dbcb671ce6eb538313b&jvId=55261007&pesId=40"
+        }]},
+        "jobFacets":          [
+          {
+            "facetName": "CONTRACT_TYPE",
+            "facetValue": "F",
+            "facetDescription": "Full time"
+          },
+          {
+            "facetName": "CONTRACT_DURATION",
+            "facetValue": "P",
+            "facetDescription": "Permanent"
+          },
+          {
+            "facetName": "EURES_FLAG",
+            "facetValue": "false",
+            "facetDescription": "Without EURES flag"
+          },
+          {
+            "facetName": "EXPERIENCE",
+            "facetValue": "D",
+            "facetDescription": "Between 2 and 5 years"
+          },
+          {
+            "facetName": "LOCATION",
+            "facetValue": "BE211",
+            "facetDescription": "Arr. Antwerpen"
+          },
+          {
+            "facetName": "OCCUPATION",
+            "facetValue": "2519",
+            "facetDescription": "Software and applications developers and analysts not elsewhere classified"
+          }
+        ]
+      }
+    ]
+  }
+}
