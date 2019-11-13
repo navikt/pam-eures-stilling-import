@@ -23,5 +23,5 @@ spec:
     path: /internal/actuator/prometheus
   webproxy: true
   ingresses:
-  - https://pam-eures-stilling-import.nais.oera.no
-  - https://tjenester.nav.no/pam-eures-stilling-import
+  - https://pam-eures-stilling-import.nais.oera-q.local
+  - https://tjenester-q0.nav.no/pam-eures-stilling-import

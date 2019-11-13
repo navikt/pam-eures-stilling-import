@@ -13,13 +13,13 @@ public class InternalSelfTestController {
   private static final Logger LOGGER =
           (Logger) LoggerFactory.getLogger(InternalSelfTestController.class);
 
-  @RequestMapping(value = "/AreYouAlive", method = {RequestMethod.GET})
+  @RequestMapping(value = "/isAlive", method = {RequestMethod.GET})
   public String areYouAlive() {
 
     return "OK";
   }
 
-  @RequestMapping(value = "/AreYouReady", method = {RequestMethod.GET})
+  @RequestMapping(value = "/isReady", method = {RequestMethod.GET})
   public String areYouReady() {
 
     return "OK";
