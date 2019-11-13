@@ -1,3 +1,3 @@
-FROM navikt/java:8
+FROM navikt/java:12
 WORKDIR /app
-COPY war/target/euresapi.jar /app/app.jar
+COPY target/euresapi.jar /app/app.jar
