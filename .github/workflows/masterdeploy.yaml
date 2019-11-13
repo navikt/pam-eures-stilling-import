@@ -1,0 +1,48 @@
+name: Deploy
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+    - name: Setup java
+      uses: actions/setup-java@v1
+      with:
+        java-version: '12x'
+    - name: Checkout
+      uses: actions/checkout@v1
+    - name: Build
+      run: mvn -U clean install
+    - name: Build and publish Docker image
+      env:
+        DOCKER_IMAGE: docker.pkg.github.com/${{ github.repository }}/pam-eures-stilling-import
+        DOCKER_USERNAME: ${GITHUB_REPOSITORY}
+        DOCKER_PASSWORD: ${{ secrets.GITHUB_ACCESS_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        echo ${DOCKER_IMAGE} > .docker_image
+        echo $(echo $GITHUB_SHA | cut -c1-7) > .docker_tag
+        docker build -t ${DOCKER_IMAGE}:$(cat .docker_tag) .
+        docker login docker.pkg.github.com -u ${GITHUB_REPOSITORY} -p ${GITHUB_TOKEN}
+        docker push ${DOCKER_IMAGE}:$(cat .docker_tag)
+    - name: Deploy to dev-sbs
+      uses: navikt/deployment-cli/action@0.4.0
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        AWAIT_SECONDS: 0
+      with:
+        cluster: dev-sbs
+        team: teampam
+        resources: nais-dev.yaml
+    - name: Deploy to prod-sbs
+      uses: navikt/deployment-cli/action@0.4.0
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        AWAIT_SECONDS: 0
+      with:
+        cluster: prod-sbs
+        team: teampam
+        resources: nais.yaml

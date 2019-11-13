@@ -6,7 +6,7 @@ metadata:
   labels:
     team: teampam
 spec:
-  image: repo.adeo.no:5443/pam-eures-stilling-import
+  image: {{ image }}:{{ tag }}
   port: 9026
   replicas:
     min: 2
