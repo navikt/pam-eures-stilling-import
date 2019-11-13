@@ -26,7 +26,7 @@ jobs:
         echo ${DOCKER_IMAGE} > .docker_image
         echo $(echo $GITHUB_SHA | cut -c1-7) > .docker_tag
         docker build -t ${DOCKER_IMAGE}:$(cat .docker_tag) .
-        docker login docker.pkg.github.com -u ${GITHUB_REPOSITORY} -p ${GITHUB_TOKEN}
+        echo ${GITHUB_TOKEN} | docker login --username "$DOCKER_USERNAME" --password-stdin docker.pkg.github.com
         docker push ${DOCKER_IMAGE}:$(cat .docker_tag)
     - name: Deploy to dev-sbs
       uses: navikt/deployment-cli/action@0.4.0
