@@ -21,32 +21,19 @@
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>12</java.version>
-        <mainClass>no.nav.arbeid.euresapi.EuresApiApplication</mainClass>
-
-        <springframework.version>4.3.6.RELEASE</springframework.version>
-        <springframework.test.version>4.3.8.RELEASE</springframework.test.version>
-
-        <prometheus.version>0.1.0</prometheus.version>
 
         <logback.version>1.2.3</logback.version>
-        <jcloverslf4j.version>1.7.25</jcloverslf4j.version>
         <slf4j.api.version>1.7.25</slf4j.api.version>
         <logstash.logback.encoder.version>4.10</logstash.logback.encoder.version>
 
-        <jacoco.version>0.7.9</jacoco.version>
         <powermock.api.mockito.version>1.7.1</powermock.api.mockito.version>
         <powermock.junit4.version>1.7.1</powermock.junit4.version>
         <powermock.api.support.version>1.7.1</powermock.api.support.version>
         <assertj-core.version>3.12.2</assertj-core.version>
 
-        <json.schema.validator.version>2.2.8</json.schema.validator.version>
-        <checkstyle.version>8.7</checkstyle.version>
         <hamcrestall.version>1.3</hamcrestall.version>
         <commons.io.version>2.5</commons.io.version>
-        <takari.maven-wrapper.version>0.2.1</takari.maven-wrapper.version>
         <javatuples.version>1.2</javatuples.version>
-
-        <jcabi.manifests.version>1.1</jcabi.manifests.version>
 
     </properties>
 
@@ -90,18 +77,9 @@
             <artifactId>spring-boot-starter-data-rest</artifactId>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/io.prometheus/simpleclient_spring_boot -->
         <dependency>
-            <groupId>io.prometheus</groupId>
-            <artifactId>simpleclient_spring_boot</artifactId>
-            <version>${prometheus.version}</version>
-        </dependency>
-
-        <!-- https://mvnrepository.com/artifact/io.prometheus/simpleclient_hotspot -->
-        <dependency>
-            <groupId>io.prometheus</groupId>
-            <artifactId>simpleclient_hotspot</artifactId>
-            <version>${prometheus.version}</version>
+            <groupId>io.micrometer</groupId>
+            <artifactId>micrometer-registry-prometheus</artifactId>
         </dependency>
 
         <dependency>
@@ -177,7 +155,6 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
-            <version>${springframework.test.version}</version>
             <scope>test</scope>
         </dependency>
 
@@ -236,9 +213,9 @@
     </build>
 
     <scm>
-        <connection>         scm:git:ssh://git@stash.devillo.no:7999/sbl/euresapi.git          </connection>
-        <developerConnection>scm:git:http://stash.devillo.no/scm/sbl/euresapi.git              </developerConnection>
-        <url>                        http://stash.devillo.no:7990/projects/sbl/repos/euresapi/browse</url>
+        <connection>scm:git:https://github.com/navikt/pam-eures-stilling-import.git</connection>
+        <developerConnection>scm:git:https://github.com/navikt/pam-eures-stilling-import.git</developerConnection>
+        <url>https://github.com/navikt/pam-eures-stilling-import</url>
         <tag>HEAD</tag>
     </scm>
 
