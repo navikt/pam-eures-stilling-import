@@ -14,13 +14,13 @@ spec:
     cpuThresholdPercentage: 50
   liveness:
     initialDelay: 20
-    path: /internal/isAlive
+    path: /euresapi/internal/isAlive
   readiness:
     initialDelay: 20
-    path: /internal/isAlive
+    path: /euresapi/internal/isReady
   prometheus:
     enabled: true
-    path: /internal/actuator/prometheus
+    path: /euresapi/internal/actuator/prometheus
   webproxy: true
   ingresses:
   - https://pam-eures-stilling-import.nais.oera-q.local

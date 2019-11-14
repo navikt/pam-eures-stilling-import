@@ -17,7 +17,7 @@ spec:
     path: /euresapi/internal/isAlive
   readiness:
     initialDelay: 20
-    path: /euresapi/internal/isAlive
+    path: /euresapi/internal/isReady
   prometheus:
     enabled: true
     path: /euresapi/internal/actuator/prometheus
