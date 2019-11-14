@@ -32,7 +32,7 @@ public class LegacyEuresGateway extends EuresGateway {
     public GetCodeListsReply getCodeLists() {
 
         final MultiValueMap<String, String> headers = new LinkedMultiValueMap<>();
-        headers.add("\"Accept-Language\"", "No");
+        headers.add("Accept-Language", "no");
 
         final HttpEntity<Object> requestEntity = new HttpEntity<>(null, headers);
 
