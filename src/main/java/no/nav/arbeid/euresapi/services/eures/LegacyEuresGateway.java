@@ -2,7 +2,6 @@ package no.nav.arbeid.euresapi.services.eures;
 
 import no.nav.arbeid.euresapi.domain.legacy.GetCodeListsReply;
 import no.nav.arbeid.euresapi.domain.legacy.SourceStatusReply;
-import no.nav.arbeid.euresapi.search.SearchJobsRequestPropertiesRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpMethod;
@@ -21,10 +20,10 @@ public class LegacyEuresGateway extends EuresGateway {
 
     @Autowired
     LegacyEuresGateway(
-            SearchJobsRequestPropertiesRepository searchJobsRequestPropertyFileRepository,
+            EuresSearchQueryFactory euresSearchQueryFactory,
             RestTemplate restTemplate,
             UriBuilder uriBuilder) {
-        super(searchJobsRequestPropertyFileRepository, restTemplate, uriBuilder);
+        super(euresSearchQueryFactory, restTemplate, uriBuilder);
         this.restTemplate = restTemplate;
         this.uriBuilder = uriBuilder;
     }

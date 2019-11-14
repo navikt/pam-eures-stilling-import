@@ -1,0 +1,33 @@
+{
+  "searchCriteria" : {
+    "keywordCriteria" : {
+      "keywordLanguageCode" : "no",
+      "keywords" : [ {
+        "keywordText" : "Hotell",
+        "keywordScope" : "EVERYWHERE"
+      }, {
+        "keywordText" : "Restaurant",
+        "keywordScope" : "EVERYWHERE"
+      }, {
+        "keywordText" : "Salg",
+        "keywordScope" : "EVERYWHERE"
+      }, {
+        "keywordText" : "Butikk",
+        "keywordScope" : "EVERYWHERE"
+      } ]
+    },
+    "facetCriteria" : [ {
+      "facetName" : "LOCATION",
+      "facetValues" : [ "SE", "SE311", "SE232" ]
+    }, {
+      "facetName" : "OCCUPATION",
+      "facetValues" : [ "122", "1221", "213", "243", "312", "332", "4", "42", "4221", "5", "511", "5111", "5113", "5151", "5169", "52", "521", "522", "7421", "7422", "911", "9112", "93" ]
+    } ]
+  },
+  "dataSetRequest" : {
+    "sortBy" : "BEST_MATCH",
+    "pageNumber" : 1,
+    "resultsPerPage" : 10,
+    "excludedDataSources" : [ ]
+  }
+}

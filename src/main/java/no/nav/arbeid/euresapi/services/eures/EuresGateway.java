@@ -4,8 +4,6 @@ import no.nav.arbeid.euresapi.domain.eures.GetReply2018;
 import no.nav.arbeid.euresapi.domain.eures.GetRequest2018;
 import no.nav.arbeid.euresapi.domain.eures.SearchReply2018;
 import no.nav.arbeid.euresapi.domain.eures.View2018;
-import no.nav.arbeid.euresapi.domain.request.SearchJobsRequest;
-import no.nav.arbeid.euresapi.search.SearchJobsRequestPropertiesRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpMethod;
@@ -18,7 +16,7 @@ import org.springframework.web.client.RestTemplate;
 @Service
 public class EuresGateway {
 
-    private final SearchJobsRequestPropertiesRepository searchJobsRequestPropertyFileRepository;
+    private final EuresSearchQueryFactory euresSearchQueryFactory;
 
     private final RestTemplate restTemplate;
 
@@ -26,10 +24,10 @@ public class EuresGateway {
 
     @Autowired
     EuresGateway(
-            SearchJobsRequestPropertiesRepository searchJobsRequestPropertyFileRepository,
+            EuresSearchQueryFactory euresSearchQueryFactory,
             RestTemplate restTemplate,
             UriBuilder uriBuilder) {
-        this.searchJobsRequestPropertyFileRepository = searchJobsRequestPropertyFileRepository;
+        this.euresSearchQueryFactory = euresSearchQueryFactory;
         this.restTemplate = restTemplate;
         this.uriBuilder = uriBuilder;
     }
@@ -47,9 +45,7 @@ public class EuresGateway {
      */
     public GetReply2018 searchJobs() {
 
-        final SearchJobsRequest searchJobsRequest = getSearchJobsRequest();
-
-        final SearchReply2018 searchReply = search(searchJobsRequest);
+        final SearchReply2018 searchReply = search();
 
         final GetRequest2018 getRequest = getGetRequest(searchReply);
 
@@ -59,11 +55,14 @@ public class EuresGateway {
     /**
      * Fetches metadata for all ads matching the given criteria
      */
-    private SearchReply2018 search(final SearchJobsRequest searchJobsRequest) {
+    private SearchReply2018 search() {
 
-        final HttpEntity<SearchJobsRequest> requestEntity = new HttpEntity<>(searchJobsRequest, headers());
+        final HttpEntity<String> requestEntity = new HttpEntity<>(euresSearchQueryFactory.asJson(), headers());
 
-        return restTemplate.exchange(uriBuilder.searchUri(), HttpMethod.POST, requestEntity, SearchReply2018.class)
+        return restTemplate.exchange(uriBuilder.searchUri(),
+                HttpMethod.POST,
+                requestEntity,
+                SearchReply2018.class)
                 .getBody();
     }
 
@@ -91,20 +90,6 @@ public class EuresGateway {
         headers.add("\"Accept-Language\"", "No");
         return headers;
 
-    }
-
-    /**
-     * Reads the preconfigured search
-     * criteria and returns them as an
-     * instance of {@link SearchJobsRequest}
-     * This method takes care of the way the preconfigured
-     * criteria are represented.
-     *
-     * @return An instance of {@link SearchJobsRequest}
-     */
-    public SearchJobsRequest getSearchJobsRequest() {
-
-        return searchJobsRequestPropertyFileRepository.getPredefinedSearchJobsRequest();
     }
 
     /**
