@@ -55,17 +55,6 @@ public class EuresGateway {
 
         return get(getRequest);
     }
-    /**
-     * Calls the EURES REST service "Search", and fetches the details for all results
-     */
-    public String searchJobs2() {
-
-        final SearchJobsRequest searchJobsRequest = getSearchJobsRequest();
-
-        return get2(getGetRequest2());
-//        return search2(searchJobsRequest);
-
-    }
 
     /**
      * Fetches metadata for all ads matching the given criteria
@@ -77,23 +66,7 @@ public class EuresGateway {
         return restTemplate.exchange(uriBuilder.searchUri(), HttpMethod.POST, requestEntity, SearchReply2018.class)
                 .getBody();
     }
-    /**
-     * Fetches metadata for all ads matching the given criteria
-     */
-    private String search2(final SearchJobsRequest searchJobsRequest) {
 
-        final HttpEntity<SearchJobsRequest> requestEntity = new HttpEntity<>(searchJobsRequest, headers());
-        return restTemplate.postForEntity(uriBuilder.searchUri(), requestEntity, String.class).getBody();
-    }
-
-
-    String get2(final GetRequest2018 getRequest) {
-
-        final HttpEntity<GetRequest2018> requestEntity = new HttpEntity<>(getRequest, acceptNorwegianLanguageOnlyHeaders());
-
-        return restTemplate.postForEntity(uriBuilder.adDetailsUri(), requestEntity, String.class)
-                .getBody();
-    }
 
     GetReply2018 get(final GetRequest2018 getRequest) {
 
@@ -132,19 +105,6 @@ public class EuresGateway {
     public SearchJobsRequest getSearchJobsRequest() {
 
         return searchJobsRequestPropertyFileRepository.getPredefinedSearchJobsRequest();
-    }
-
-    /**
-     * Create request for details of a list of ads found represented by the reply
-     */
-    GetRequest2018 getGetRequest2() {
-
-        final GetRequest2018 getRequest = new GetRequest2018();
-        getRequest.getHandles().add("MjMwMjYgMTIx");
-        getRequest.getHandles().add("ODkyMDQ2IDEyMQ");
-
-        getRequest.setView(View2018.ViewValue.FULL.name());
-        return getRequest;
     }
 
     /**

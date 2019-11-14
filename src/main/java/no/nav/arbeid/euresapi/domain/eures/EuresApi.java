@@ -15,11 +15,6 @@ public class EuresApi {
         this.euresGateway = euresGateway;
     }
 
-    public String searchJobs2() {
-
-        return euresGateway.searchJobs2();
-
-    }
 
     public GetReply2018 searchJobs() {
 

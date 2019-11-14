@@ -1,0 +1,28 @@
+server:
+  port: 9026
+spring:
+  main:
+    banner-mode: off
+management:
+  endpoint:
+    prometheus:
+      enabled: true
+    metrics:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: ["prometheus", "metrics"]
+
+EuresUrlHostName: ec.europa.eu
+EuresUrlPort: 443
+EuresUrlScheme: https
+EuresUrlBasePath: /eures/output/api/v1/
+
+shouldUseProxy: true
+ProxyUrlHostName: webproxy-internett.nav.no
+ProxyUrlPort: 8088
+ProxyUrlScheme: HTTP
+
+folder.ledetekster.path.predefined: tekster_prod/tekster/euresapi
+

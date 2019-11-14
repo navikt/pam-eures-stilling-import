@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/internal")
+@RequestMapping("euresapi/internal")
 public class InternalSelfTestController {
 
   private static final Logger LOGGER =

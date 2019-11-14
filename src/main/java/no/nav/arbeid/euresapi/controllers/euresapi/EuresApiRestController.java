@@ -3,6 +3,7 @@ package no.nav.arbeid.euresapi.controllers.euresapi;
 import no.nav.arbeid.euresapi.domain.eures.EuresApi;
 import no.nav.arbeid.euresapi.domain.eures.GetReply2018;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -13,7 +14,7 @@ import static org.springframework.web.bind.annotation.RequestMethod.GET;
  * @author r149852 on 11.05.2017.
  */
 @RestController
-@RequestMapping("/api/v1/eures")
+@RequestMapping("euresapi/api/v1/eures")
 public class EuresApiRestController {
 
   private final EuresApi euresApiService;
@@ -23,10 +24,10 @@ public class EuresApiRestController {
     this.euresApiService = euresApiService;
   }
 
-  @RequestMapping(value = "/SearchJobs", method = GET)
-  public String searchJobs() {
+  @RequestMapping(value = "/SearchJobs", method = GET, produces = MediaType.APPLICATION_JSON_VALUE)
+  public GetReply2018 searchJobs() {
 
-    return euresApiService.searchJobs2();
+    return euresApiService.searchJobs();
   }
 
 }

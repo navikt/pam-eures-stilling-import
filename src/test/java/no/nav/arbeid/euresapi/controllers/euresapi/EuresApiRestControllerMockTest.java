@@ -38,7 +38,7 @@ public class EuresApiRestControllerMockTest {
     private static final Logger enteringTestHeaderLogger =
         (Logger)LoggerFactory.getLogger("EnteringTestHeader");
 
-    private static final String context = ""; //"/euresapi";
+    private static final String context = "/euresapi";
     private static final String restSubcontext = "/rest";
     private static final String contextAndRestSubcontext = context + restSubcontext;
 
