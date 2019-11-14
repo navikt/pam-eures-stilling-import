@@ -16,13 +16,7 @@ class UriBuilder {
   private static final Logger LOGGER =
       (Logger) LoggerFactory.getLogger(UriBuilder.class);
 
-  private String euresUrlScheme;
-
-  private String euresUrlHostName;
-
-  private Integer euresUrlPort;
-
-  private String euresUrlBasePath;
+  private static final String root = "https://ec.europa.eu:443/eures/output/api/v1/";
 
   private final static String SEARCH_SUFFIX = "jv/search";
 
@@ -34,53 +28,31 @@ class UriBuilder {
 
   private final static String CODELISTS_SUFFIX = "jv/getCodeLists";
 
-  @Autowired
-  UriBuilder(
-          @Value("${EuresUrlScheme}") String euresUrlScheme,
-          @Value("${EuresUrlHostName}")  String euresUrlHostName,
-          @Value("${EuresUrlPort}") Integer euresUrlPort,
-          @Value("${EuresUrlBasePath}") String euresUrlBasePath
-  ) {
-
-    this.euresUrlScheme = euresUrlScheme;
-    this.euresUrlHostName = euresUrlHostName;
-    this.euresUrlPort = euresUrlPort;
-    this.euresUrlBasePath = euresUrlBasePath;
-  }
-
-  URI sourceStatusUri() {
+  String sourceStatusUri() {
     return build(SOURCE_STATUS_SUFFIX);
   }
 
-  URI codeListsUri() {
+  String codeListsUri() {
     return build(CODELISTS_SUFFIX);
   }
 
-  URI adDetailsUri() {
+  String adDetailsUri() {
     return build(GET_DATAILS_SUFFIX);
   }
 
-  URI searchUri() {
+  String searchUri() {
     return build(SEARCH_SUFFIX);
   }
 
-  URI pingUri() {
+  String pingUri() {
     return build(PING_SUFFIX);
   }
 
-  private URI build(final String euresUrlServicePath) {
+  private String build(final String euresUrlServicePath) {
 
     Objects.requireNonNull(euresUrlServicePath, "Parameter euresUrlServicePath is null");
 
-    final String urlPath = euresUrlBasePath + euresUrlServicePath;
-
-    try {
-
-      return new URI(euresUrlScheme, null, euresUrlHostName, euresUrlPort, urlPath, null, null);
-    } catch (URISyntaxException e) {
-      LOGGER.error("Exception received when trying to create a new URI.");
-      throw new RuntimeException(e);
-    }
+    return root + euresUrlServicePath;
 
   }
 

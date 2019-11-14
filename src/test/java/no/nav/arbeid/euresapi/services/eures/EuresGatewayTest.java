@@ -122,7 +122,7 @@ public class EuresGatewayTest {
         // =====================================================================
         when(
             this.restTemplate.exchange(
-                  any(URI.class)
+                  any(String.class)
                 , any(HttpMethod.class)
                 , any(HttpEntity.class)
                 , any(Class.class))
@@ -130,8 +130,8 @@ public class EuresGatewayTest {
         .thenReturn(new ResponseEntity<>(expectedSearchReply, HttpStatus.OK))
         .thenReturn(new ResponseEntity<>(getReply2018, HttpStatus.OK));
         // =====================================================================
-        when(this.uriBuilder.searchUri()).thenReturn(new URI("A_malformed_meaningless_and_useless_URL_just_for_testing_placeholder_purpose"));
-        when(this.uriBuilder.adDetailsUri()).thenReturn(new URI("A_malformed_meaningless_and_useless_URL_just_for_testing_placeholder_purpose"));
+        when(this.uriBuilder.searchUri()).thenReturn("A_malformed_meaningless_and_useless_URL_just_for_testing_placeholder_purpose");
+        when(this.uriBuilder.adDetailsUri()).thenReturn("A_malformed_meaningless_and_useless_URL_just_for_testing_placeholder_purpose");
         // =====================================================================
 
       GetReply2018 searchReply = this.euresGateway.searchJobs();
@@ -153,14 +153,14 @@ public class EuresGatewayTest {
     // =====================================================================
     when(
       this.restTemplate.exchange(
-        any(URI.class)
+        any(String.class)
         , any(HttpMethod.class)
         , any(HttpEntity.class)
         , any(Class.class))
     )
       .thenReturn(new ResponseEntity<>(expectedGetReply, HttpStatus.OK));
     // =====================================================================
-    when(this.uriBuilder.adDetailsUri()).thenReturn(new URI("A_malformed_meaningless_and_useless_URL_just_for_testing_placeholder_purpose"));
+    when(this.uriBuilder.adDetailsUri()).thenReturn("A_malformed_meaningless_and_useless_URL_just_for_testing_placeholder_purpose");
     // =====================================================================
     final GetRequest2018 getRequest2018 = new GetRequest2018();
     final GetReply2018 getReply = this.euresGateway.get(getRequest2018);
@@ -188,14 +188,14 @@ public class EuresGatewayTest {
         // =====================================================================
         when(
             this.restTemplate.exchange(
-                  any(URI.class)
+                  any(String.class)
                 , any(HttpMethod.class)
                 , any(HttpEntity.class)
                 , any(Class.class))
         )
         .thenReturn(new ResponseEntity<>(expectedSourceStatusReply, HttpStatus.OK));
         // =====================================================================
-        when(this.uriBuilder.sourceStatusUri()).thenReturn(new URI("A_malformed_meaningless_and_useless_URL_just_for_testing_placeholder_purpose"));
+        when(this.uriBuilder.sourceStatusUri()).thenReturn("A_malformed_meaningless_and_useless_URL_just_for_testing_placeholder_purpose");
         // =====================================================================
 
         final SourceStatusReply actualSourceStatusReply = this.euresGateway.sourceStatus();
@@ -216,14 +216,14 @@ public class EuresGatewayTest {
         // =====================================================================
         when(
             this.restTemplate.exchange(
-                  any(URI.class)
+                  any(String.class)
                 , any(HttpMethod.class)
                 , any(HttpEntity.class)
                 , any(Class.class))
         )
         .thenReturn(new ResponseEntity<>(expectedGetCodeListsReply, HttpStatus.OK));
         // =====================================================================
-        when(this.uriBuilder.codeListsUri()).thenReturn(new URI("A_malformed_meaningless_and_useless_URL_just_for_testing_placeholder_purpose"));
+        when(this.uriBuilder.codeListsUri()).thenReturn("A_malformed_meaningless_and_useless_URL_just_for_testing_placeholder_purpose");
         // =====================================================================
 
         final GetCodeListsReply actualGetCodeListsReply = this.euresGateway.getCodeLists();
@@ -247,14 +247,14 @@ public class EuresGatewayTest {
     // =====================================================================
     when(
       this.restTemplate.exchange(
-        any(URI.class)
+        any(String.class)
         , any(HttpMethod.class)
         , any(HttpEntity.class)
         , any(Class.class))
     )
       .thenReturn(new ResponseEntity<>(new Object(), HttpStatus.OK));
     // =====================================================================
-    when(this.uriBuilder.pingUri()).thenReturn(new URI("A_malformed_meaningless_and_useless_URL_just_for_testing_placeholder_purpose"));
+    when(this.uriBuilder.pingUri()).thenReturn("A_malformed_meaningless_and_useless_URL_just_for_testing_placeholder_purpose");
     // =====================================================================
     euresGateway.ping();
   }
@@ -267,14 +267,14 @@ public class EuresGatewayTest {
         // =====================================================================
         when(
             this.restTemplate.exchange(
-                  any(URI.class)
+                  any(String.class)
                 , any(HttpMethod.class)
                 , any(HttpEntity.class)
                 , any(Class.class))
         )
         .thenReturn(new ResponseEntity<>(new Object(), HttpStatus.OK));
         // =====================================================================
-        when(this.uriBuilder.pingUri()).thenReturn(new URI("A_malformed_meaningless_and_useless_URL_just_for_testing_placeholder_purpose"));
+        when(this.uriBuilder.pingUri()).thenReturn("A_malformed_meaningless_and_useless_URL_just_for_testing_placeholder_purpose");
         // =====================================================================
 
         final HttpStatus httpStatus = this.euresGateway.ping();

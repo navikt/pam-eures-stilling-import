@@ -16,22 +16,9 @@ management:
 
 spring.profiles.active: test
 
-EuresUrlHostName: ec.europa.eu
-EuresUrlPort: 443
-EuresUrlScheme: https
-EuresUrlBasePath: /eures/output/api/v1/
-
 shouldUseProxy: true
 ProxyUrlHostName: webproxy-utvikler.nav.no
 ProxyUrlPort: 8088
 ProxyUrlScheme: HTTP
 
-folder.ledetekster.path.predefined: tekster_prod/tekster/euresapi
-folder.ledetekster.path:
-folder.ledetekster.path.prod: tekster_prod
-folder.ledetekster.path.test001: tekster_test001
-folder.ledetekster.path.test002: tekster_test002
-folder.ledetekster.path.test003: tekster_test003
-folder.ledetekster.path.test004: tekster_test004
-folder.ledetekster.path.test005: tekster_test005
 
