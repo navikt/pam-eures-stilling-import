@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @author r149852 on 11.05.2017.
  */
 @RestController
-@RequestMapping("euresapi/rest")
+@RequestMapping("pam-eures-stilling-import/rest")
 public class LegacyEuresApiRestController {
 
   private final LegacyEuresApi euresApiService;

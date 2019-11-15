@@ -14,7 +14,7 @@ import static org.springframework.web.bind.annotation.RequestMethod.GET;
  * @author r149852 on 11.05.2017.
  */
 @RestController
-@RequestMapping("euresapi/api/v1/eures")
+@RequestMapping("pam-eures-stilling-import/api/v1/eures")
 public class EuresApiRestController {
 
   private final EuresApi euresApiService;

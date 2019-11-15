@@ -13,7 +13,7 @@ management:
     web:
       exposure:
         include: ["prometheus", "metrics"]
-      base-path: /euresapi/internal/actuator
+      base-path: /pam-eures-stilling-import/internal/actuator
 
 shouldUseProxy: true
 ProxyUrlHostName: webproxy-internett.nav.no
