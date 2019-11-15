@@ -1,14 +1,11 @@
 package no.nav.arbeid.euresapi.controllers.euresapi;
 
-import ch.qos.logback.classic.Logger;
 import no.nav.arbeid.euresapi.domain.legacy.LegacyEuresApi;
-import no.nav.arbeid.euresapi.domain.legacy.SearchJobsReply;
 import no.nav.arbeid.euresapi.domain.legacy.builders.SearchJobsReplyRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mockito;
-import org.slf4j.LoggerFactory;
 import org.springframework.aop.framework.Advised;
 import org.springframework.aop.support.AopUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,15 +29,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @AutoConfigureMockMvc
 public class EuresApiRestControllerMockTest {
 
-    private static final Logger logger =
-        (Logger)LoggerFactory.getLogger(EuresApiRestControllerMockTest.class);
-
-    private static final Logger enteringTestHeaderLogger =
-        (Logger)LoggerFactory.getLogger("EnteringTestHeader");
-
-    private static final String context = "/euresapi";
-    private static final String restSubcontext = "/rest";
-    private static final String contextAndRestSubcontext = context + restSubcontext;
+    private static final String SEARCH_JOBS = "/pam-eures-stilling-import/rest/SearchJobs";
 
     @Autowired
     private MockMvc mockMvc;
@@ -68,19 +57,11 @@ public class EuresApiRestControllerMockTest {
     @Test
     public void testSearchJobs() {
 
-        enteringTestHeaderLogger.debug(null);
-
-        final SearchJobsReply searchJobsReply = SearchJobsReplyRepository.getSearchJobsReply1();
-
-        logger.debug("searchJobsReply: " + searchJobsReply.toString());
-        logger.debug("searchJobsReply.getData(): " + searchJobsReply.getData());
-        logger.debug("searchJobsReply.getHeader(): " + searchJobsReply.getHeader());
-
-        when(euresApiServiceMock.searchJobs()).thenReturn(searchJobsReply);
+        when(euresApiServiceMock.searchJobs()).thenReturn(SearchJobsReplyRepository.getSearchJobsReply1());
 
         try {
           mockMvc
-            .perform(get(contextAndRestSubcontext + "/SearchJobs"))
+            .perform(get(SEARCH_JOBS))
             .andDo(print())
             .andExpect(status().isOk())
             .andExpect(content().contentType(MediaType.APPLICATION_JSON.toString()))
