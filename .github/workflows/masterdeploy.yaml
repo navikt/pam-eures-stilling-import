@@ -57,7 +57,7 @@ jobs:
         team: teampam
         resources: nais.yaml
     - name: Rate limit final
-    run: |
-      curl -s "https://api.github.com/rate_limit" -H "Authorization: token $GITHUB_TOKEN"
-    env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        curl -s "https://api.github.com/rate_limit" -H "Authorization: token $GITHUB_TOKEN"
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
