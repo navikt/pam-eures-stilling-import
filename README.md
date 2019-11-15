@@ -1,4 +1,4 @@
-https://github.com/navikt/pam-eures-stilling-import/workflows/Deploy/badge.svg
+![](https://github.com/navikt/pam-eures-stilling-import/workflows/Deploy/badge.svg)
 
 # Stillingsimport fra Eures
 
