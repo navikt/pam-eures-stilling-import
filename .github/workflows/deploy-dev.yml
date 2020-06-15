@@ -7,7 +7,7 @@ on:
       - "LICENCE"
       - "CODEOWNERS"
     branches:
-      - NaiseratorWorkflow
+      - master
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
