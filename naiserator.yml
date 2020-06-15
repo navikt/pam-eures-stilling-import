@@ -6,22 +6,32 @@ metadata:
   labels:
     team: teampam
 spec:
-  image: {{ image }}:{{ tag }}
+  image: {{ image }}
   port: 9026
+  liveness:
+    path: /pam-eures-stilling-import/internal/isAlive
+    initialDelay: 20
+  readiness:
+    path: /pam-eures-stilling-import/internal/isReady
+    initialDelay: 20
   replicas:
     min: 2
     max: 4
-    cpuThresholdPercentage: 50
-  liveness:
-    initialDelay: 20
-    path: /pam-eures-stilling-import/internal/isAlive
-  readiness:
-    initialDelay: 20
-    path: /pam-eures-stilling-import/internal/isReady
+  cpuThresholdPercentage: 50
+  resources:
+    limits:
+      cpu: 3000m
+      memory: 2048Mi
+    requests:
+      cpu: 200m
+      memory: 512Mi
+  vault:
+    enabled: true
+  webproxy: true
   prometheus:
     enabled: true
     path: /pam-eures-stilling-import/internal/actuator/prometheus
-  webproxy: true
   ingresses:
-  - https://pam-eures-stilling-import.nais.oera.no
-  - https://tjenester.nav.no/pam-eures-stilling-import
+  {{#each ingress as |url|}}
+     - {{url}}
+  {{/each}}
