@@ -15,7 +15,7 @@ management:
         include: ["prometheus", "metrics"]
       base-path: /pam-eures-stilling-import/internal/actuator
 
-shouldUseProxy: true
+shouldUseProxy: false
 ProxyUrlHostName: webproxy-internett.nav.no
 ProxyUrlPort: 8088
 ProxyUrlScheme: HTTP

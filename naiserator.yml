@@ -2,7 +2,7 @@ apiVersion: "nais.io/v1alpha1"
 kind: "Application"
 metadata:
   name: pam-eures-stilling-import
-  namespace: default
+  namespace: teampam
   labels:
     team: teampam
 spec:
@@ -35,3 +35,11 @@ spec:
   {{#each ingress as |url|}}
      - {{url}}
   {{/each}}
+  accessPolicy:
+    outbound:
+      external:
+        - host: ec-europa.eu
+          ports:
+            - port: 443
+              name: https
+              protocol: HTTPS
