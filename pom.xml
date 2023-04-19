@@ -21,7 +21,7 @@
 
         <java.version>12</java.version>
 
-        <logback.version>1.2.3</logback.version>
+        <logback.version>1.2.9</logback.version>
         <slf4j.api.version>1.7.25</slf4j.api.version>
         <logstash.logback.encoder.version>4.10</logstash.logback.encoder.version>
 
